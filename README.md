@@ -21,6 +21,7 @@
 - [Driller: Augmenting Fuzzing Through Selective Symbolic Execution, 2016](https://cancer.shtech.org/wiki/uploads/2016---NDSS---driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf)
 ### ACM Conference on Computer and Communications Security (ACM CCS)
 - [IMF: Inferred Model-based Fuzzer, 2017](http://daramg.gift/paper/han-ccs2017.pdf)
+- [Coverage-based Greybox Fuzzing as Markov Chain, 2017](https://ieeexplore.ieee.org/abstract/document/8233151)
 - [Scheduling Black-box Mutational Fuzzing, 2013](https://softsec.kaist.ac.kr/~sangkilc/papers/woo-ccs13.pdf)
 ### USENIX Security
 - [Optimizing Seed Selection for Fuzzing, 2014](https://softsec.kaist.ac.kr/~sangkilc/papers/rebert-usenixsec14.pdf
