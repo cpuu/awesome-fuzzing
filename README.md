@@ -33,6 +33,7 @@
 - [Coverage-Guided Fuzzing for Deep Neural Networks, 2018](https://arxiv.org/abs/1809.01266)
 - [Not all bytes are equal: Neural byte sieve for fuzzing, 2017](https://arxiv.org/abs/1711.04596)
 ### The others
+- [Call-Flow Aware API Fuzz Testing for Security of Windows Systems, 2008](https://www.computer.org/csdl/proceedings/iccsa/2008/3243/00/3243a019-abs.html)
 - [Randoop : Feedback-directed random test generation, 2007](https://dl.acm.org/citation.cfm?id=1248841)
 
 
