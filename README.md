@@ -17,8 +17,7 @@
 
 
 ## Papers
-
-About this section. Optional. Keep this short and focus on the list.
+- [Stephens, Nick, et al. "Driller: Augmenting Fuzzing Through Selective Symbolic Execution." NDSS. Vol. 16. 2016.](https://cancer.shtech.org/wiki/uploads/2016---NDSS---driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf)
 
 
 ## Tools
