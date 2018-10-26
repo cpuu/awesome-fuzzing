@@ -7,6 +7,7 @@
 
 - [Book](#book)
 - [Paper](#paper)
+- [Tool](#tool)
 
 
 ## Book
@@ -19,6 +20,14 @@ About this section. Optional. Keep this short and focus on the list.
 
 
 ## Paper
+
+About this section. Optional. Keep this short and focus on the list.
+
+
+## Tool
+
+About this section. Optional. Keep this short and focus on the list.
+
 
 ### Subsection
 
