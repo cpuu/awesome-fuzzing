@@ -24,7 +24,7 @@ About this section. Optional. Keep this short and focus on the list.
 ## Tools
 About this section. Optional. Keep this short and focus on the list.
 ### Open Source
-- [american fuzzy lop](http://lcamtuf.coredump.cx/afl/) American fuzzy lop is a security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. 
+- [American fuzzy lop](http://lcamtuf.coredump.cx/afl/) is a security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. 
 - [List item](http://example.com)
 
 
