@@ -5,8 +5,8 @@
 
 ## Table of Contents
 
-- [Book](#section)
-- [Another Section](#another-section)
+- [Book](#book)
+- [Paper](#paper)
 
 
 ## Book
@@ -17,7 +17,7 @@ About this section. Optional. Keep this short and focus on the list.
 - [Fuzzing: Brute Force Vulnerability Discovery 1st Edition](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119/) (2007)
 
 
-## Another Section
+## Paper
 
 ### Subsection
 
