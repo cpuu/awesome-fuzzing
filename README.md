@@ -3,18 +3,18 @@
 > A curated list of awesome Fuzzing for software security
 
 
-## Contents
+## Table of Contents
 
-- [Section](#section)
+- [Book](#section)
 - [Another Section](#another-section)
 
 
-## Section
+## Book
 
 About this section. Optional. Keep this short and focus on the list.
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+- [Fuzzing for Software Security Testing and Quality Assurance 2nd Edition](https://www.amazon.com/Fuzzing-Software-Security-Testing-Assurance/dp/1608078507/) (2018)
+- [Fuzzing: Brute Force Vulnerability Discovery 1st Edition](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119/) (2007)
 
 
 ## Another Section
