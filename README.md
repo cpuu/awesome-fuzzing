@@ -18,6 +18,7 @@
 
 ## Papers
 ### The Network and Distributed System Security Symposium (NDSS)
+- [Vuzzer: Application-aware evolutionary fuzzing, 2017](https://www.researchgate.net/profile/Cristiano_Giuffrida/publication/311886374_VUzzer_Application-aware_Evolutionary_Fuzzing/links/585f3f5608aebf17d38d5678/VUzzer-Application-aware-Evolutionary-Fuzzing.pdf)
 - [Driller: Augmenting Fuzzing Through Selective Symbolic Execution, 2016](https://cancer.shtech.org/wiki/uploads/2016---NDSS---driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf)
 ### ACM Conference on Computer and Communications Security (ACM CCS)
 - [IMF: Inferred Model-based Fuzzer, 2017](http://daramg.gift/paper/han-ccs2017.pdf)
