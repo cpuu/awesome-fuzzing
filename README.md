@@ -20,9 +20,12 @@
 ### The Network and Distributed System Security Symposium (NDSS)
 - [Stephens, Nick, et al. "Driller: Augmenting Fuzzing Through Selective Symbolic Execution." NDSS. Vol. 16. 2016.](https://cancer.shtech.org/wiki/uploads/2016---NDSS---driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf)
 ### ACM Conference on Computer and Communications Security (ACM CCS)
+- [HyungSeok Han, and Sang Kil Cha. "IMF: Inferred Model-based Fuzzer." Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security. ACM, 2017.](http://daramg.gift/paper/han-ccs2017.pdf)
 - [Woo, Maverick, et al. "Scheduling black-box mutational fuzzing." Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security. ACM, 2013.](https://softsec.kaist.ac.kr/~sangkilc/papers/woo-ccs13.pdf)
 ### USENIX Security
+- [Rebert, Alexandre, et al. "Optimizing Seed Selection for Fuzzing." USENIX Security Symposium. 2014.](https://softsec.kaist.ac.kr/~sangkilc/papers/rebert-usenixsec14.pdf)
 ### IEEE Symposium on Security and Privacy (IEEE S&P)
+- [Sang Kil Cha, Maverick Woo, and David Brumley. "Program-adaptive mutational fuzzing." Security and Privacy (SP), 2015 IEEE Symposium on. IEEE, 2015.](https://softsec.kaist.ac.kr/~sangkilc/papers/cha-oakland15.pdf)
 ### The others
 
 ## Tools
