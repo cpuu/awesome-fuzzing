@@ -5,9 +5,9 @@
 
 ## Table of Contents
 
-- [Book](#book)
-- [Paper](#paper)
-- [Tool](#tool)
+- [Books](#books)
+- [Papers](#papers)
+- [Tools](#tools)
 
 
 ## Books
@@ -17,8 +17,13 @@
 
 
 ## Papers
+### The Network and Distributed System Security Symposium (NDSS)
 - [Stephens, Nick, et al. "Driller: Augmenting Fuzzing Through Selective Symbolic Execution." NDSS. Vol. 16. 2016.](https://cancer.shtech.org/wiki/uploads/2016---NDSS---driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf)
-
+### ACM Conference on Computer and Communications Security (ACM CCS)
+- [Woo, Maverick, et al. "Scheduling black-box mutational fuzzing." Proceedings of the 2013 ACM SIGSAC conference on Computer & communications security. ACM, 2013.](https://softsec.kaist.ac.kr/~sangkilc/papers/woo-ccs13.pdf)
+### USENIX Security
+### IEEE Symposium on Security and Privacy (IEEE S&P)
+### The others
 
 ## Tools
 About this section. Optional. Keep this short and focus on the list.
