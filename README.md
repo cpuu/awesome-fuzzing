@@ -71,6 +71,9 @@ About this section. Optional. Keep this short and focus on the list.
 - [jsfunfuzz](https://github.com/MozillaSecurity/funfuzz) - JavaScript engine fuzzers
 
 
+## Platform
+- [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training)
+
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
