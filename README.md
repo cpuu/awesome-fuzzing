@@ -48,7 +48,7 @@
 About this section. Optional. Keep this short and focus on the list.
 ### Open Source
 - [American fuzzy lop](http://lcamtuf.coredump.cx/afl/) is a security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. 
-- [List item](http://example.com)
+- [libFuzzer](http://llvm.org/docs/LibFuzzer.html) - – a library for coverage-guided fuzz testing. [Tutorial from Google](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
 
 
 ## Contribute
