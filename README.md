@@ -58,6 +58,7 @@
 - [Learn&Fuzz: Machine Learning for Input Fuzzing, 2017](https://arxiv.org/abs/1701.07232)
 - [Complementing Model Learning with Mutation-Based Fuzzing, 2016](https://arxiv.org/abs/1611.02429)
 ### The others
+- [Ifuzzer: An evolutionary interpreter fuzzer using genetic programming, 2016](https://www.cs.vu.nl/~herbertb/download/papers/ifuzzer-esorics16.pdf)
 - [Hybrid fuzz testing: Discovering software bugs via fuzzing and symbolic execution, 2012](https://pdfs.semanticscholar.org/488a/b1e313f5109153f2c74e3b5d86d41e9b4b71.pdf)
 - [Call-Flow Aware API Fuzz Testing for Security of Windows Systems, 2008](https://www.computer.org/csdl/proceedings/iccsa/2008/3243/00/3243a019-abs.html)
 - [Randoop : Feedback-directed random test generation, 2007](https://dl.acm.org/citation.cfm?id=1248841)
@@ -66,10 +67,12 @@
 
 ## Tools
 About this section. Optional. Keep this short and focus on the list.
-### Open Source
+### Binary
 - [American fuzzy lop](http://lcamtuf.coredump.cx/afl/) is a security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. 
 - [libFuzzer](http://llvm.org/docs/LibFuzzer.html) is a library for coverage-guided fuzz testing. [Tutorial from Google](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
+### javascript
 - [jsfunfuzz](https://github.com/MozillaSecurity/funfuzz) - JavaScript engine fuzzers
+- [IFuzzer](https://github.com/vspandan/IFuzzer)
 
 
 ## Platform
