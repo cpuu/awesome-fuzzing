@@ -72,7 +72,7 @@ About this section. Optional. Keep this short and focus on the list.
 
 
 ## Platform
-- [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training)
+- [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training) by [@wrauner](https://github.com/wrauner)
 
 ## Contribute
 
