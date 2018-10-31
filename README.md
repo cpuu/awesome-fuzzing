@@ -67,12 +67,18 @@
 
 ## Tools
 About this section. Optional. Keep this short and focus on the list.
+### General-purpose
+- [radamsa](https://gitlab.com/akihe/radamsa) is a general-purpose fuzzer.
 ### Binary
 - [American fuzzy lop](http://lcamtuf.coredump.cx/afl/) is a security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. 
 - [libFuzzer](http://llvm.org/docs/LibFuzzer.html) is a library for coverage-guided fuzz testing. [Tutorial from Google](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
-### javascript
+### Web, JavaScript
 - [jsfunfuzz](https://github.com/MozillaSecurity/funfuzz) - JavaScript engine fuzzers
 - [IFuzzer](https://github.com/vspandan/IFuzzer)
+- [domato](https://github.com/googleprojectzero/domato) - DOM fuzzer from [Google Project Zero](https://github.com/googleprojectzero). [Blog Post](https://googleprojectzero.blogspot.com/2017/09/the-great-dom-fuzz-off-of-2017.html)
+### Network protocol
+- [boofuzz](https://github.com/jtpereyda/boofuzz) : Network Protocol Fuzzing for Humans. Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
+
 
 
 ## Platform
