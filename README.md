@@ -77,6 +77,7 @@
 About this section. Optional. Keep this short and focus on the list.
 ### General-purpose
 - [radamsa](https://gitlab.com/akihe/radamsa) is a general-purpose fuzzer.
+- [zzuf](https://github.com/samhocevar/zzuf) is a transparent application input fuzzer.
 ### Binary
 - [American fuzzy lop](http://lcamtuf.coredump.cx/afl/) is a security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. 
 - [WinAFL](https://github.com/googleprojectzero/winafl) is a fork of AFL for fuzzing Windows binaries.
