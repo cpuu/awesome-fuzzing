@@ -82,9 +82,7 @@ About this section. Optional. Keep this short and focus on the list.
 ### Network protocol
 - [boofuzz](https://github.com/jtpereyda/boofuzz) : Network Protocol Fuzzing for Humans. Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
 - [TumbleRF](https://github.com/riverloopsec/tumblerf) is a framework that orchestrates the application of fuzzing techniques to RF systems. 
-
-
-## Platform
+### Platform
 - [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training) by [@wrauner](https://github.com/wrauner)
 
 ## Contribute
