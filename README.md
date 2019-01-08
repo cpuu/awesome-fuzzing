@@ -1,6 +1,6 @@
 # Fuzzing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome Fuzzing for software security
+> A curated list of awesome Fuzzing for security testing
 
 
 ## Table of Contents
