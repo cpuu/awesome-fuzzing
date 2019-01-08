@@ -22,6 +22,8 @@
 - [Vuzzer: Application-aware evolutionary fuzzing, 2017](https://www.researchgate.net/profile/Cristiano_Giuffrida/publication/311886374_VUzzer_Application-aware_Evolutionary_Fuzzing/links/585f3f5608aebf17d38d5678/VUzzer-Application-aware-Evolutionary-Fuzzing.pdf)
 - [Driller: Augmenting Fuzzing Through Selective Symbolic Execution, 2016](https://cancer.shtech.org/wiki/uploads/2016---NDSS---driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf)
 ### ACM Conference on Computer and Communications Security (ACM CCS)
+- [Evaluating Fuzz Testing](http://www.cs.umd.edu/~mwh/papers/fuzzeval.pdf)
+- [Hawkeye: Towards a Desired Directed Grey-box Fuzzer](https://chenbihuan.github.io/paper/ccs18-chen-hawkeye.pdf)
 - [IMF: Inferred Model-based Fuzzer, 2017](http://daramg.gift/paper/han-ccs2017.pdf)
 - [SemFuzz: Semantics-based Automatic Generation of Proof-of-Concept Exploits, 2017](https://www.informatics.indiana.edu/xw7/papers/p2139-you.pdf)
 - [AFL-based Fuzzing for Java with Kelinci, 2017](https://www.andrew.cmu.edu/user/rkersten/publications/ccs17-kersten.pdf)
