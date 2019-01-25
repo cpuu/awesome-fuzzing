@@ -49,6 +49,7 @@
 - [SAGE: whitebox fuzzing for security testing, 2012](https://dl.acm.org/citation.cfm?id=2094081)
 - [Grammar-based whitebox fuzzing, 2008](https://dl.acm.org/citation.cfm?id=1375607)
 ### USENIX Security
+- [Charm: Facilitating Dynamic Analysis of Device Drivers of Mobile Systems, 2018](https://www.usenix.org/conference/usenixsecurity18/presentation/talebi)
 - [MoonShine: Optimizing OS Fuzzer Seed Selection with Trace Distillation, 2018](https://www.usenix.org/conference/usenixsecurity18/presentation/pailoor)
 - [QSYM : A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing, 2018](https://www.usenix.org/conference/usenixsecurity18/presentation/yun)
 - [OSS-Fuzz - Google's continuous fuzzing service for open source software, 2017](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/serebryany)
@@ -104,6 +105,7 @@ About this section. Optional. Keep this short and focus on the list.
 - [boofuzz](https://github.com/jtpereyda/boofuzz) : Network Protocol Fuzzing for Humans. Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
 - [TumbleRF](https://github.com/riverloopsec/tumblerf) is a framework that orchestrates the application of fuzzing techniques to RF systems. 
 ### Platform
+- [Charm](https://github.com/trusslab/charm)
 - [certfuzz](https://github.com/CERTCC/certfuzz) contains the source code for the CMU CERT Basic Fuzzing Framework (BFF) and the CERT Failure Observation Engine (FOE).
 - [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training) by [@wrauner](https://github.com/wrauner)
 
