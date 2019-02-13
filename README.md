@@ -109,6 +109,8 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [IFuzzer](https://github.com/vspandan/IFuzzer) - An Evolutionary Interpreter Fuzzer Using Genetic Programming
 - [domato](https://github.com/googleprojectzero/domato) - DOM fuzzer from [Google Project Zero](https://github.com/googleprojectzero). [Blog Post](https://googleprojectzero.blogspot.com/2017/09/the-great-dom-fuzz-off-of-2017.html)
 ### Network protocol
+- [TLS-Attacker](https://github.com/RUB-NDS/TLS-Attacker) - a Java-based framework for analyzing TLS libraries.
+- [DELTA](https://github.com/nss-lab/DELTA) - SDN Security evaluation framework.
 - [boofuzz](https://github.com/jtpereyda/boofuzz) - Network Protocol Fuzzing for Humans. Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
 - [TumbleRF](https://github.com/riverloopsec/tumblerf) - A framework that orchestrates the application of fuzzing techniques to RF systems. 
 ### Platform
