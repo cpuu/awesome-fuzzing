@@ -1,6 +1,8 @@
-# Fuzzing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Fuzzing & Fuzz Testing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of references to awesome Fuzzing for security testing. Additionally there is a collection of freely available academic papers, tools and so on.
+> fuzzing is the action of running a Program Under Test (PUT) with “fuzz inputs”. -Prof. Barton P Miller
+
+A curated list of references to awesome Fuzzing for security testing. Additionally there is a collection of freely available academic papers, tools and so on.
 
 Your favorite tool or your own paper is not listed? Fork and create a Pull Request to add it!
 
