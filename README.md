@@ -1,4 +1,4 @@
-# Fuzzing & Fuzz Testing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Fuzzing & Fuzz Testing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > fuzzing is the action of running a Program Under Test (PUT) with “fuzz inputs”. -Prof. Barton P Miller
 
@@ -96,23 +96,23 @@ major security conferences and others from Jan 2008 to Feb 2019.
 ## Tools
 Information about the various open source tools you can use to leverage fuzz testing.
 ### General-purpose
-- [radamsa](https://gitlab.com/akihe/radamsa) is a general-purpose fuzzer.
-- [zzuf](https://github.com/samhocevar/zzuf) is a transparent application input fuzzer.
+- [radamsa](https://gitlab.com/akihe/radamsa) - A general-purpose fuzzer.
+- [zzuf](https://github.com/samhocevar/zzuf) - A transparent application input fuzzer.
 ### Binary
-- [American fuzzy lop](http://lcamtuf.coredump.cx/afl/) is a security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. 
-- [WinAFL](https://github.com/googleprojectzero/winafl) is a fork of AFL for fuzzing Windows binaries.
-- [libFuzzer](http://llvm.org/docs/LibFuzzer.html) is a library for coverage-guided fuzz testing. [Tutorial from Google](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
-- [Driller](https://github.com/shellphish/driller) is an implementation of the [driller paper](https://www.cs.ucsb.edu/~vigna/publications/2016_NDSS_Driller.pdf). This implementation was built on top of AFL with angr being used as a symbolic tracer.
-- [shellphish fuzzer](https://github.com/shellphish/fuzzer) is a python interface to AFL, allowing for easy injection of testcases and other functionality.
+- [American fuzzy lop](http://lcamtuf.coredump.cx/afl/) - A security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. 
+- [WinAFL](https://github.com/googleprojectzero/winafl) - A fork of AFL for fuzzing Windows binaries.
+- [libFuzzer](http://llvm.org/docs/LibFuzzer.html) - A library for coverage-guided fuzz testing. [Tutorial from Google](https://github.com/google/fuzzer-test-suite/blob/master/tutorial/libFuzzerTutorial.md)
+- [Driller](https://github.com/shellphish/driller) - An implementation of the [driller paper](https://www.cs.ucsb.edu/~vigna/publications/2016_NDSS_Driller.pdf). This implementation was built on top of AFL with angr being used as a symbolic tracer.
+- [shellphish fuzzer](https://github.com/shellphish/fuzzer) - A python interface to AFL, allowing for easy injection of testcases and other functionality.
 ### Web, JavaScript
 - [jsfunfuzz](https://github.com/MozillaSecurity/funfuzz) - JavaScript engine fuzzers
 - [IFuzzer](https://github.com/vspandan/IFuzzer)
 - [domato](https://github.com/googleprojectzero/domato) - DOM fuzzer from [Google Project Zero](https://github.com/googleprojectzero). [Blog Post](https://googleprojectzero.blogspot.com/2017/09/the-great-dom-fuzz-off-of-2017.html)
 ### Network protocol
-- [boofuzz](https://github.com/jtpereyda/boofuzz) : Network Protocol Fuzzing for Humans. Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
-- [TumbleRF](https://github.com/riverloopsec/tumblerf) is a framework that orchestrates the application of fuzzing techniques to RF systems. 
+- [boofuzz](https://github.com/jtpereyda/boofuzz) - Network Protocol Fuzzing for Humans. Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
+- [TumbleRF](https://github.com/riverloopsec/tumblerf) - A framework that orchestrates the application of fuzzing techniques to RF systems. 
 ### Platform
-- [Charm](https://github.com/trusslab/charm) is a system solution that facilitates dynamic analysis of device drivers of mobile systems.
+- [Charm](https://github.com/trusslab/charm) - A system solution that facilitates dynamic analysis of device drivers of mobile systems.
 - [certfuzz](https://github.com/CERTCC/certfuzz) contains the source code for the CMU CERT Basic Fuzzing Framework (BFF) and the CERT Failure Observation Engine (FOE).
 - [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training) by [@wrauner](https://github.com/wrauner)
 
