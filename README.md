@@ -22,6 +22,9 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 
 ## Papers
+To achieve a well-defined scope, I have chosen to include all publications on fuzzing in the last proceedings of 4
+major security conferences and others from Jan 2008 to Feb 2019.
+
 ### The Network and Distributed System Security Symposium (NDSS)
 - [CodeAlchemist: Semantics-Aware Code Generation to Find Vulnerabilities in JavaScript Engines, 2019](https://daramg.gift/paper/han-ndss2019.pdf)
 - [PeriScope: An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary, 2019](https://people.cs.kuleuven.be/~stijn.volckaert/papers/2019_NDSS_PeriScope.pdf)
@@ -91,7 +94,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 
 ## Tools
-About this section. Optional. Keep this short and focus on the list.
+Information about the various open source tools you can use to leverage fuzz testing.
 ### General-purpose
 - [radamsa](https://gitlab.com/akihe/radamsa) is a general-purpose fuzzer.
 - [zzuf](https://github.com/samhocevar/zzuf) is a transparent application input fuzzer.
