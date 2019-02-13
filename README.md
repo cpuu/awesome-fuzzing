@@ -106,7 +106,7 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [shellphish fuzzer](https://github.com/shellphish/fuzzer) - A python interface to AFL, allowing for easy injection of testcases and other functionality.
 ### Web, JavaScript
 - [jsfunfuzz](https://github.com/MozillaSecurity/funfuzz) - JavaScript engine fuzzers
-- [IFuzzer](https://github.com/vspandan/IFuzzer)
+- [IFuzzer](https://github.com/vspandan/IFuzzer) - An Evolutionary Interpreter Fuzzer Using Genetic Programming
 - [domato](https://github.com/googleprojectzero/domato) - DOM fuzzer from [Google Project Zero](https://github.com/googleprojectzero). [Blog Post](https://googleprojectzero.blogspot.com/2017/09/the-great-dom-fuzz-off-of-2017.html)
 ### Network protocol
 - [boofuzz](https://github.com/jtpereyda/boofuzz) - Network Protocol Fuzzing for Humans. Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
