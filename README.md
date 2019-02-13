@@ -112,10 +112,12 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [TLS-Attacker](https://github.com/RUB-NDS/TLS-Attacker) - a Java-based framework for analyzing TLS libraries.
 - [DELTA](https://github.com/nss-lab/DELTA) - SDN Security evaluation framework.
 - [boofuzz](https://github.com/jtpereyda/boofuzz) - Network Protocol Fuzzing for Humans. Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
+- [LL-Fuzzer](https://github.com/mit-ll/LL-Fuzzer) - An automated NFC fuzzing framework for Android devices.
+- [tlsfuzzer](https://github.com/tomato42/tlsfuzzer) - A SSL and TLS protocol test suite and fuzzer.
 - [TumbleRF](https://github.com/riverloopsec/tumblerf) - A framework that orchestrates the application of fuzzing techniques to RF systems. 
 ### Platform
 - [Charm](https://github.com/trusslab/charm) - A system solution that facilitates dynamic analysis of device drivers of mobile systems.
-- [certfuzz](https://github.com/CERTCC/certfuzz) contains the source code for the CMU CERT Basic Fuzzing Framework (BFF) and the CERT Failure Observation Engine (FOE).
+- [certfuzz](https://github.com/CERTCC/certfuzz) - It contains the source code for the CMU CERT Basic Fuzzing Framework (BFF) and the CERT Failure Observation Engine (FOE).
 - [Peach Fuzzer Platform](https://www.peach.tech/products/peach-fuzzer/) - An automated security testing platform that prevents zero-day attacks by finding vulnerabilities in hardware and software systems.
 - [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training) by [@wrauner](https://github.com/wrauner)
 
