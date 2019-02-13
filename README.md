@@ -114,6 +114,7 @@ Information about the various open source tools you can use to leverage fuzz tes
 ### Platform
 - [Charm](https://github.com/trusslab/charm) - A system solution that facilitates dynamic analysis of device drivers of mobile systems.
 - [certfuzz](https://github.com/CERTCC/certfuzz) contains the source code for the CMU CERT Basic Fuzzing Framework (BFF) and the CERT Failure Observation Engine (FOE).
+- [Peach Fuzzer Platform](https://www.peach.tech/products/peach-fuzzer/) - An automated security testing platform that prevents zero-day attacks by finding vulnerabilities in hardware and software systems.
 - [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training) by [@wrauner](https://github.com/wrauner)
 
 ## Contribute
