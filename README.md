@@ -1,6 +1,6 @@
-# Awesome Fuzzing & Fuzz Testing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Fuzzing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> fuzzing is the action of running a Program Under Test (PUT) with “fuzz inputs”. -Prof. Barton P Miller
+> Fuzzing is the action of running a Program Under Test (PUT) with “fuzz inputs”. -Prof. Barton P Miller
 
 A curated list of references to awesome Fuzzing for security testing. Additionally there is a collection of freely available academic papers, tools and so on.
 
@@ -117,8 +117,9 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [tlsfuzzer](https://github.com/tomato42/tlsfuzzer) - A SSL and TLS protocol test suite and fuzzer.
 - [TumbleRF](https://github.com/riverloopsec/tumblerf) - A framework that orchestrates the application of fuzzing techniques to RF systems. 
 - [PULSAR](https://github.com/hgascon/pulsar) - A method for stateful black-box fuzzing of proprietary network protocols.
-### Platform
+### Driver
 - [Charm](https://github.com/trusslab/charm) - A system solution that facilitates dynamic analysis of device drivers of mobile systems.
+## Platform
 - [certfuzz](https://github.com/CERTCC/certfuzz) - It contains the source code for the CMU CERT Basic Fuzzing Framework (BFF) and the CERT Failure Observation Engine (FOE).
 - [Peach Fuzzer Platform](https://www.peach.tech/products/peach-fuzzer/) - An automated security testing platform that prevents zero-day attacks by finding vulnerabilities in hardware and software systems.
 - [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training) by [@wrauner](https://github.com/wrauner)
