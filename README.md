@@ -22,8 +22,8 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 
 ## Papers
-To achieve a well-defined scope, I have chosen to include all publications on fuzzing in the last proceedings of 4
-major security conferences and others from Jan 2008 to Feb 2019.
+To achieve a well-defined scope, I have chosen to include publications on fuzzing in the last proceedings of 4
+top major security conferences and others from Jan 2008 to Feb 2019. 
 
 ### The Network and Distributed System Security Symposium (NDSS)
 - [CodeAlchemist: Semantics-Aware Code Generation to Find Vulnerabilities in JavaScript Engines, 2019](https://daramg.gift/paper/han-ndss2019.pdf)
