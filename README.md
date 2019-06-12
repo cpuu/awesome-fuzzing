@@ -133,6 +133,8 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [tlsfuzzer](https://github.com/tomato42/tlsfuzzer) - A SSL and TLS protocol test suite and fuzzer.
 - [TumbleRF](https://github.com/riverloopsec/tumblerf) - A framework that orchestrates the application of fuzzing techniques to RF systems. 
 - [PULSAR](https://github.com/hgascon/pulsar) - A method for stateful black-box fuzzing of proprietary network protocols.
+- [SPIKE](https://github.com/guilhermeferreira/spikepp/tree/master/SPIKE) - A fuzzer development framework like sulley, a predecessor of sulley.
+- [PROTOS](https://www.ee.oulu.fi/roles/ouspg/Protos) - Security testing of protocol implementations.
 ### Driver
 - [Charm](https://github.com/trusslab/charm) - A system solution that facilitates dynamic analysis of device drivers of mobile systems.
 ## Platform
