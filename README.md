@@ -48,7 +48,7 @@ Security and Privacy (S&P), (iii) Network and Distributed System Security Sympos
 
 ### IEEE Symposium on Security and Privacy (IEEE S&P)
 - [Full-speed Fuzzing: Reducing Fuzzing Overhead through Coverage-guided Tracing, 2019](https://www.computer.org/csdl/proceedings-article/sp/2019/666000b122/19skgbGVFEQ)
-- [Fuzzing File Systems via Two-Dimensional Input Space Exploration, 201)9](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a594/19skfLYOpaw)
+- [Fuzzing File Systems via Two-Dimensional Input Space Exploration, 2019](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a594/19skfLYOpaw)
 - [NEUZZ: Efficient Fuzzing with Neural Program Smoothing, 2019](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a900/19skg5XghG0)
 - [Razzer: Finding Kernel Race Bugs through Fuzzing, 2019](https://www.computer.org/csdl/proceedings-article/sp/2019/666000a296/19skfwZLirm)
 - [Angora: Efficient Fuzzing by Principled Search, 2018](http://web.cs.ucdavis.edu/~hchen/paper/chen2018angora.pdf)
