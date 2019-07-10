@@ -16,6 +16,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 
 ## Books
+- [The Art, Science, and Engineering of Fuzzing: A Survey](https://arxiv.org/abs/1812.00140) (2019)
 - [Fuzzing for Software Security Testing and Quality Assurance, 2nd Edition](https://www.amazon.com/Fuzzing-Software-Security-Testing-Assurance/dp/1608078507/) (2018)
 - [Fuzzing: Brute Force Vulnerability Discovery, 1st Edition](https://www.amazon.com/Fuzzing-Brute-Force-Vulnerability-Discovery/dp/0321446119/) (2007)
 - [Open Source Fuzzing Tools, 1st Edition](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950/) (2007)
