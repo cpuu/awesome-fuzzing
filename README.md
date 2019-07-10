@@ -136,6 +136,7 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [fuzzilli](https://github.com/googleprojectzero/fuzzilli) - A (coverage-)guided Javascript engine fuzzer, written by Samuel Groß.
 - [CodeAlchemist](https://github.com/SoftSec-KAIST/CodeAlchemist) - JavaScript engine fuzzer, written by KAIST SoftSec Lab.
 ### Network protocol
+- [T-Fuzz](https://github.com/HexHive/T-Fuzz) - T-Fuzz leverages a coverage guided fuzzer to generate inputs.
 - [TLS-Attacker](https://github.com/RUB-NDS/TLS-Attacker) - A Java-based framework for analyzing TLS libraries.
 - [DELTA](https://github.com/nss-lab/DELTA) - SDN Security evaluation framework.
 - [boofuzz](https://github.com/jtpereyda/boofuzz) - Network Protocol Fuzzing for Humans. Documentation is available at http://boofuzz.readthedocs.io/, including nifty quickstart guides.
