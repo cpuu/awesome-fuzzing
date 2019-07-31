@@ -25,6 +25,7 @@ Actually, this document is a paper, but it contains more important and essential
 
 ## Talks
 - [Effective File Format Fuzzing](https://youtu.be/qTTwqFRD1H8), Black Hat Europe 2016
+- [Adventures in Fuzzing](https://www.youtube.com/watch?v=SngK4W4tVc0), NYU Talk 2018
 
 ## Papers
 To achieve a well-defined scope, I have chosen to include publications on fuzzing in the last proceedings of 4
