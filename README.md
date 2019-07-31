@@ -23,6 +23,9 @@ Actually, this document is a paper, but it contains more important and essential
 - [Open Source Fuzzing Tools, 1st Edition](https://www.amazon.com/Open-Source-Fuzzing-Tools-Rathaus/dp/1597491950/) (2007)
 
 
+## Talks
+- [Effective File Format Fuzzing](https://youtu.be/qTTwqFRD1H8), Black Hat Europe 2016
+
 ## Papers
 To achieve a well-defined scope, I have chosen to include publications on fuzzing in the last proceedings of 4
 top major security conferences and others from Jan 2008 to Jul 2019.
