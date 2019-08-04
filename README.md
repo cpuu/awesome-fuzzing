@@ -142,6 +142,7 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [fuzzilli](https://github.com/googleprojectzero/fuzzilli) - A (coverage-)guided Javascript engine fuzzer, written by Samuel Groß.
 - [CodeAlchemist](https://github.com/SoftSec-KAIST/CodeAlchemist) - JavaScript engine fuzzer, written by KAIST SoftSec Lab.
 - [test-each](https://github.com/ehmicky/test-each) - Repeat tests using different inputs.
+- [gremlins.js](https://github.com/marmelab/gremlins.js) - gremlins.js is a monkey testing library written in JavaScript, for Node.js and the browser. Use it to check the robustness of web applications by unleashing a horde of undisciplined gremlins.
 ### Network protocol
 - [T-Fuzz](https://github.com/HexHive/T-Fuzz) - T-Fuzz leverages a coverage guided fuzzer to generate inputs.
 - [TLS-Attacker](https://github.com/RUB-NDS/TLS-Attacker) - A Java-based framework for analyzing TLS libraries.
