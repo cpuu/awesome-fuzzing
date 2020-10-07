@@ -167,6 +167,7 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [test-each](https://github.com/ehmicky/test-each) - Repeat tests using different inputs.
 - [gremlins.js](https://github.com/marmelab/gremlins.js) - gremlins.js is a monkey testing library written in JavaScript.
 ### Network protocol
+- [dtls-fuzzer](https://github.com/assist-project/dtls-fuzzer) - A Java tool which performs protocol state fuzzing of DTLS servers.
 - [T-Fuzz](https://github.com/HexHive/T-Fuzz) - T-Fuzz leverages a coverage guided fuzzer to generate inputs.
 - [TLS-Attacker](https://github.com/RUB-NDS/TLS-Attacker) - A Java-based framework for analyzing TLS libraries.
 - [DELTA](https://github.com/seungsoo-lee/DELTA) - SDN Security evaluation framework.
