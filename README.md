@@ -16,6 +16,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 
 ## Books
+- [The Fuzzing Book](https://www.fuzzingbook.org/) (2019)
 - [The Art, Science, and Engineering of Fuzzing: A Survey](https://ieeexplore.ieee.org/document/8863940) (2019) - 
 Actually, this document is a paper, but it contains more important and essential content than any other book.
 - [Fuzzing for Software Security Testing and Quality Assurance, 2nd Edition](https://www.amazon.com/Fuzzing-Software-Security-Testing-Assurance/dp/1608078507/) (2018)
