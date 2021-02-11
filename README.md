@@ -159,6 +159,7 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [Driller](https://github.com/shellphish/driller) - An implementation of the [driller paper](https://www.cs.ucsb.edu/~vigna/publications/2016_NDSS_Driller.pdf). This implementation was built on top of AFL with angr being used as a symbolic tracer.
 - [shellphish fuzzer](https://github.com/shellphish/fuzzer) - A Python interface to AFL, allowing for easy injection of testcases and other functionality.
 - [Eclipser](https://github.com/SoftSec-KAIST/Eclipser) - A binary-based fuzz testing tool that improves upon classic coverage-based fuzzing by leveraging a novel technique called grey-box concolic testing.
+- [Jazzer](https://github.com/CodeIntelligenceTesting/jazzer) - A coverage-guided, in-process fuzzer for the Java Virtual Machine. It is based on libFuzzer and can be applied directly to compiled applications.
 ### Web, JavaScript
 - [jsfunfuzz](https://github.com/MozillaSecurity/funfuzz) - JavaScript engine fuzzers.
 - [IFuzzer](https://github.com/vspandan/IFuzzer) - An Evolutionary Interpreter Fuzzer Using Genetic Programming.
@@ -185,6 +186,7 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [certfuzz](https://github.com/CERTCC/certfuzz) - It contains the source code for the CMU CERT Basic Fuzzing Framework (BFF) and the CERT Failure Observation Engine (FOE).
 - [Peach Fuzzer Platform](https://www.peach.tech/products/peach-fuzzer/) - An automated security testing platform that prevents zero day attacks by finding vulnerabilities in hardware and software systems.
 - [Blackhat USA 2018 AFL workshop training materials](https://github.com/wrauner/afl-fuzzing-training) - From @wrauner at Samsung Research.
+- [CI Fuzz](https://code-intelligence.com) - A CI/CD-agnostic platform for feedback-based fuzz testing of both native applications and Java web apps.
 
 ## Contribute
 
