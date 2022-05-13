@@ -178,6 +178,7 @@ Information about the various open source tools you can use to leverage fuzz tes
 ### General-purpose
 - [radamsa](https://gitlab.com/akihe/radamsa) - A general-purpose fuzzer.
 - [zzuf](https://github.com/samhocevar/zzuf) - A transparent application input fuzzer.
+- [FireCracker](https://github.com/blst-security/firecracker) - BLST CLI tool takes your HTTP logs, uses them to map your API flows and find risks.
 ### Binary
 - [American Fuzzy Lop plus plus (AFL++)](https://github.com/AFLplusplus/AFLplusplus) - A superior fork to Google's AFL. more speed, more and better mutations, more and better instrumentation, custom module support, etc. [paper](https://www.usenix.org/conference/woot20/presentation/fioraldi)
 - [American fuzzy lop](http://lcamtuf.coredump.cx/afl/) - A security-oriented fuzzer that employs a novel type of compile-time instrumentation and genetic algorithms to automatically discover clean, interesting test cases that trigger new internal states in the targeted binary. 
