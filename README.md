@@ -212,6 +212,7 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [PROTOS](https://www.ee.oulu.fi/roles/ouspg/Protos) - Security testing of protocol implementations.
 - [MTF](https://github.com/artemiosv/etfa2015) - A Modbus/TCP Fuzzer for testing internetworked industrial systems
 - [MTF-Storm](https://github.com/ntinosk-mtf/etfa2018) - A high performance fuzzer for Modbus/TCP.
+- [Scapy](https://github.com/secdev/scapy) - Packet manipulation program & library. Can fuzz any protocol. See the `fuzz` function.
 ### Driver
 - [Charm](https://github.com/trusslab/charm) - A system solution that facilitates dynamic analysis of device drivers of mobile systems.
 ## Platform
