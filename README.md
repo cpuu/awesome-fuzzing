@@ -209,6 +209,7 @@ Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM
 Information about the various open source tools you can use to leverage fuzz testing. The items in this section have been organized and classified based on the standards set by the https://fuzzing-survey.org/ website. Although there are currently more than 35 categories, we have selected the most relevant ones to provide efficient information. Additionally, items that are outdated and deprecated have been excluded, and only those that are currently usable are listed.
 ### File
 - [AFL++](https://github.com/AFLplusplus/AFLplusplus) - AFL++ is a superior fork to Google's AFL - more speed, more and better mutations, more and better instrumentation, custom module support, etc.
+- [Angora](https://github.com/AngoraFuzzer/Angora) - Angora is a mutation-based coverage guided fuzzer. The main goal of Angora is to increase branch coverage by solving path constraints without symbolic execution.
 ### Kernel
 ### Network
 ### API
