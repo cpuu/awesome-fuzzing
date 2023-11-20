@@ -231,6 +231,8 @@ Information about the various open source tools you can use to leverage fuzz tes
 ### Blockchain
 - [Fluffy](https://github.com/snuspl/fluffy) - Fluffy is a multi-transaction differential fuzzer for finding consensus bugs in Ethereum. 
 - [LOKI](https://github.com/ConsensusFuzz/LOKI) - LOKI is a blockchain consensus protocol fuzzing framework that detects the consensus memory related and logic bugs.
+### DBMS
+- [Squirrel](https://github.com/s3team/Squirrel) - Squirrel is a fuzzer for database managment systems (DBMSs).
 
 
 ## Contribute
