@@ -223,6 +223,10 @@ Information about the various open source tools you can use to leverage fuzz tes
 ### Firmware
 ### Hypervisor
 ### CPU
+- [DifuzzRTL](https://github.com/compsec-snu/difuzz-rtl) - DifuzzRTL is a differential fuzz testing approach for CPU verification. 
+- [MorFuzz](https://github.com/sycuricon/MorFuzz) - MorFuzz is a generic RISC-V processor fuzzing framework that can efficiently detect software triggerable functional bugs.
+- [SpecFuzz](https://github.com/tudinfse/SpecFuzz) - SpecFuzz is a tool to enable fuzzing for Spectre vulnerabilities
+- [Transynther](https://github.com/vernamlab/Medusa) - Transynther automatically generates and tests building blocks for Meltdown attacks with various faults and microcode assists.
 ### Lib
 ### Web
 ### DOM
