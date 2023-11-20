@@ -234,7 +234,6 @@ Information about the various open source tools you can use to leverage fuzz tes
 - [CorbFuzz](https://github.com/shouc/corbfuzz) - CorbFuzz is a state-aware fuzzer for generating as much reponses from a web application as possible without need of setting up database, etc.
 ### DOM
 ### Argument
-### UI
 ### Blockchain
 - [Fluffy](https://github.com/snuspl/fluffy) - Fluffy is a multi-transaction differential fuzzer for finding consensus bugs in Ethereum. 
 - [LOKI](https://github.com/ConsensusFuzz/LOKI) - LOKI is a blockchain consensus protocol fuzzing framework that detects the consensus memory related and logic bugs.
