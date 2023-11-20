@@ -213,16 +213,22 @@ Information about the various open source tools you can use to leverage fuzz tes
 ### Kernel
 ### Network
 ### API
+- [IvySyn](https://gitlab.com/brown-ssl/ivysyn) - IvySyn is a fully-automated framework for discovering memory error vulnerabilities in Deep Learning (DL) frameworks.
+- [MINER](https://github.com/puppet-meteor/MINER) - MINER is a REST API fuzzer that utilizes three data-driven designs working together to guide the sequence generation, improve the request generation quality, and capture the unique errors caused by incorrect parameter usage.
+- [RestTestGen](https://github.com/SeUniVr/RestTestGen) - RestTestGen is a robust tool and framework designed for automated black-box testing of RESTful web APIs.
+- [GraphFuzz](https://github.com/ForAllSecure/GraphFuzz) - GraphFuzz is an experimental framework for building structure-aware, library API fuzzers.
+- [Minerva](https://github.com/ChijinZ/Minerva) - Minerva is a browser fuzzer augmented by API mod-ref relations, aiming to synthesize highly-relevant browser API invocations in each test case.
+- [FANS](https://github.com/iromise/fans) - FANS is a fuzzing tool for fuzzing Android native system services. It contains four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
 ### JavaScript
 ### Firmware
 ### Hypervisor
 ### CPU
 ### Lib
-### Argument
+### Web
 ### DOM
+### Argument
 ### UI
 ### Blockchain
-### AI
 
 
 ## Contribute
