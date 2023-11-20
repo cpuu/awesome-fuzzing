@@ -140,6 +140,11 @@ Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM
 
 
 ### ACM Conference on Computer and Communications Security (ACM CCS)
+- [Fuzz on the Beach: Fuzzing Solana Smart Contracts, 2023](https://arxiv.org/pdf/2309.03006.pdf)
+- [NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic, 2023](https://secsys.fudan.edu.cn/_upload/article/files/56/ed/788960544d56a38258aca7d3c8b5/216e599a-d6f6-4308-aa0b-ef45166a8431.pdf)
+- [Profile-Driven System Optimizations for Accelerated Greybox Fuzzing, 2023](https://users.cs.utah.edu/~snagy/papers/23CCS.pdf)
+- [Hopper: Interpretative Fuzzing for Libraries, 2023](https://arxiv.org/pdf/2309.03496.pdf)
+- [Greybox Fuzzing of Distributed Systems, 2023](https://arxiv.org/pdf/2305.02601.pdf)
 - [SpecDoctor: Differential Fuzz Testing to Find Transient Execution Vulnerabilities, 2022](https://compsec.snu.ac.kr/papers/jaewon-specdoctor.pdf)
 - [SFuzz: Slice-based Fuzzing for Real-Time Operating Systems, 2022](https://huhong789.github.io/papers/chen:sfuzz.pdf)
 - [MC^2: Rigorous and Efficient Directed Greybox Fuzzing, 2022](https://arxiv.org/pdf/2208.14530.pdf)
