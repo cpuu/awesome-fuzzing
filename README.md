@@ -13,6 +13,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 - [Talks](#talks)
 - [Papers](#papers)
 - [Tools](#tools)
+- [Contribute](#contribute)
 
 
 ## Books
@@ -434,37 +435,37 @@ Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM
 ## Tools
 Information about the various open source tools you can use to leverage fuzz testing. The items in this section have been organized and classified based on the standards set by the https://fuzzing-survey.org/ website. Although there are currently more than 35 categories, we have selected the most relevant ones to provide efficient information. Additionally, items that are outdated and deprecated have been excluded, and only those that are currently usable are listed.
 ### File
-- [AFL++](https://github.com/AFLplusplus/AFLplusplus) - AFL++ is a superior fork to Google's AFL - more speed, more and better mutations, more and better instrumentation, custom module support, etc.
-- [Angora](https://github.com/AngoraFuzzer/Angora) - Angora is a mutation-based coverage guided fuzzer. The main goal of Angora is to increase branch coverage by solving path constraints without symbolic execution.
+- [AFL++](https://github.com/AFLplusplus/AFLplusplus) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
+- [Angora](https://github.com/AngoraFuzzer/Angora) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 ### Kernel
 ### Network
 ### API
-- [IvySyn](https://gitlab.com/brown-ssl/ivysyn) - IvySyn is a fully-automated framework for discovering memory error vulnerabilities in Deep Learning (DL) frameworks.
-- [MINER](https://github.com/puppet-meteor/MINER) - MINER is a REST API fuzzer that utilizes three data-driven designs working together to guide the sequence generation, improve the request generation quality, and capture the unique errors caused by incorrect parameter usage.
-- [RestTestGen](https://github.com/SeUniVr/RestTestGen) - RestTestGen is a robust tool and framework designed for automated black-box testing of RESTful web APIs.
-- [GraphFuzz](https://github.com/ForAllSecure/GraphFuzz) - GraphFuzz is an experimental framework for building structure-aware, library API fuzzers.
-- [Minerva](https://github.com/ChijinZ/Minerva) - Minerva is a browser fuzzer augmented by API mod-ref relations, aiming to synthesize highly-relevant browser API invocations in each test case.
-- [FANS](https://github.com/iromise/fans) - FANS is a fuzzing tool for fuzzing Android native system services. It contains four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
+- [IvySyn](https://gitlab.com/brown-ssl/ivysyn) - A fully-automated framework for discovering memory error vulnerabilities in Deep Learning (DL) frameworks.
+- [MINER](https://github.com/puppet-meteor/MINER) - A REST API fuzzer that utilizes three data-driven designs working together to guide sequence generation, improve request generation quality, and capture unique errors caused by incorrect parameter usage.
+- [RestTestGen](https://github.com/SeUniVr/RestTestGen) - A robust tool and framework designed for automated black-box testing of RESTful web APIs.
+- [GraphFuzz](https://github.com/ForAllSecure/GraphFuzz) - An experimental framework for building structure-aware, library API fuzzers.
+- [Minerva](https://github.com/ChijinZ/Minerva) - A browser fuzzer augmented by API mod-ref relations, aiming to synthesize highly-relevant browser API invocations in each test case.
+- [FANS](https://github.com/iromise/fans) - A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
 ### JavaScript
 ### Firmware
 ### Hypervisor
 ### CPU
-- [DifuzzRTL](https://github.com/compsec-snu/difuzz-rtl) - DifuzzRTL is a differential fuzz testing approach for CPU verification.
-- [MorFuzz](https://github.com/sycuricon/MorFuzz) - MorFuzz is a generic RISC-V processor fuzzing framework that can efficiently detect software triggerable functional bugs.
-- [SpecFuzz](https://github.com/tudinfse/SpecFuzz) - SpecFuzz is a tool to enable fuzzing for Spectre vulnerabilities.
-- [Transynther](https://github.com/vernamlab/Medusa) - Transynther automatically generates and tests building blocks for Meltdown attacks with various faults and microcode assists.
+- [DifuzzRTL](https://github.com/compsec-snu/difuzz-rtl) - A differential fuzz testing approach for CPU verification.
+- [MorFuzz](https://github.com/sycuricon/MorFuzz) - A generic RISC-V processor fuzzing framework that can efficiently detect software triggerable functional bugs.
+- [SpecFuzz](https://github.com/tudinfse/SpecFuzz) - A tool to enable fuzzing for Spectre vulnerabilities.
+- [Transynther](https://github.com/vernamlab/Medusa) - Automatically generates and tests building blocks for Meltdown attacks with various faults and microcode assists.
 ### Lib
 ### Web
-- [TEFuzz](https://github.com/seclab-fudan/TEFuzz/) - TEFuzz is a tailored fuzzing-based framework to facilitate the detection and exploitation of template escape bugs.
-- [Witcher](https://github.com/sefcom/Witcher) - Witcher is a web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.
-- [CorbFuzz](https://github.com/shouc/corbfuzz) - CorbFuzz is a state-aware fuzzer for generating as much reponses from a web application as possible without need of setting up database, etc.
+- [TEFuzz](https://github.com/seclab-fudan/TEFuzz/) - A tailored fuzzing-based framework to facilitate the detection and exploitation of template escape bugs.
+- [Witcher](https://github.com/sefcom/Witcher) - A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.
+- [CorbFuzz](https://github.com/shouc/corbfuzz) - A state-aware fuzzer for generating as many responses from a web application as possible without need of setting up a database.
 ### DOM
 ### Argument
 ### Blockchain
-- [Fluffy](https://github.com/snuspl/fluffy) - Fluffy is a multi-transaction differential fuzzer for finding consensus bugs in Ethereum.
-- [LOKI](https://github.com/ConsensusFuzz/LOKI) - LOKI is a blockchain consensus protocol fuzzing framework that detects the consensus memory related and logic bugs.
+- [Fluffy](https://github.com/snuspl/fluffy) - A multi-transaction differential fuzzer for finding consensus bugs in Ethereum.
+- [LOKI](https://github.com/ConsensusFuzz/LOKI) - A Blockchain consensus protocol fuzzing framework that detects consensus memory related and logic bugs.
 ### DBMS
-- [Squirrel](https://github.com/s3team/Squirrel) - Squirrel is a fuzzer for database managment systems (DBMSs).
+- [Squirrel](https://github.com/s3team/Squirrel) - A fuzzer for database management systems (DBMSs).
 
 
 ## Contribute
@@ -472,9 +473,3 @@ Information about the various open source tools you can use to leverage fuzz tes
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
 
 
-## License
-
-[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
-
-To the extent possible under law, cpuu has waived all copyright and
-related or neighboring rights to this work.
