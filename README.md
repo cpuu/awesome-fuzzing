@@ -260,6 +260,23 @@ Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM
 
 ### USENIX Security
 
+<details><summary>2024 (12 papers)</summary>
+
+- [Atropos: Effective Fuzzing of Web Applications for Server-Side Vulnerabilities, 2024](https://www.usenix.org/system/files/usenixsecurity24-guler.pdf)
+- [Cascade: CPU Fuzzing via Intricate Program Generation, 2024](https://www.usenix.org/system/files/usenixsecurity24-solt.pdf)
+- [Critical Code Guided Directed Greybox Fuzzing for Commits, 2024](https://www.usenix.org/system/files/usenixsecurity24-xiang-yi.pdf)
+- [EL3XIR: Fuzzing COTS Secure Monitors, 2024](https://www.usenix.org/system/files/usenixsecurity24-lindenmeier.pdf)
+- [Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing, 2024](https://www.usenix.org/system/files/usenixsecurity24-asmita.pdf)
+- [HYPERPILL: Fuzzing for Hypervisor-bugs by Leveraging the Hardware Virtualization Interface, 2024](https://www.usenix.org/system/files/usenixsecurity24-bulekov.pdf)
+- [MultiFuzz: A Multi-Stream Fuzzer For Testing Monolithic Firmware, 2024](https://www.usenix.org/system/files/usenixsecurity24-chesser.pdf)
+- [ResolverFuzz: Automated Discovery of DNS Resolver Vulnerabilities with Query-Response Fuzzing, 2024](https://www.usenix.org/system/files/usenixsecurity24-zhang-qifan.pdf)
+- [SDFuzz: Target States Driven Directed Fuzzing, 2024](https://www.usenix.org/system/files/usenixsecurity24-li-penghui.pdf)
+- [SHiFT: Semi-hosted Fuzz Testing for Embedded Applications, 2024](https://www.usenix.org/system/files/usenixsecurity24-mera.pdf)
+- [Towards Generic Database Management System Fuzzing, 2024](https://www.usenix.org/system/files/usenixsecurity24-yang-yupeng.pdf)
+- [WhisperFuzz: White-Box Fuzzing for Detecting and Locating Timing Vulnerabilities in Processors, 2024](https://www.usenix.org/system/files/usenixsecurity24-borkar.pdf)
+
+</details>
+
 <details><summary>2023 (19 papers)</summary>
 
 - [AIFORE: Smart Fuzzing Based on Automatic Input Format Reverse Engineering, 2023](https://www.usenix.org/system/files/usenixsecurity23-shi-ji.pdf)
