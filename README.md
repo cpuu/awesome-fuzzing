@@ -260,6 +260,30 @@ Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM
 
 ### USENIX Security
 
+<details><summary>2023 (19 papers)</summary>
+
+- [AIFORE: Smart Fuzzing Based on Automatic Input Format Reverse Engineering, 2023](https://www.usenix.org/system/files/usenixsecurity23-shi-ji.pdf)
+- [autofz: Automated Fuzzer Composition at Runtime, 2023](https://www.usenix.org/system/files/usenixsecurity23-fu-yu-fu.pdf)
+- [Automata-Guided Control-Flow-Sensitive Fuzz Driver Generation, 2023](https://www.usenix.org/system/files/usenixsecurity23-zhang-cen.pdf)
+- [Automated Exploitable Heap Layout Generation for Heap Overflows Through Manipulation Distance-Guided Fuzzing, 2023](https://www.usenix.org/system/files/usenixsecurity23-zhang-bin.pdf)
+- [Bleem: Packet Sequence Oriented Fuzzing for Protocol Implementations, 2023](https://www.usenix.org/system/files/usenixsecurity23-luo-zhengxiong.pdf)
+- [BoKASAN: Binary-only Kernel Address Sanitizer for Effective Kernel Fuzzing, 2023](https://www.usenix.org/system/files/usenixsecurity23-cho.pdf)
+- [CarpetFuzz: Automatic Program Option Constraint Extraction from Documentation for Fuzzing, 2023](https://www.usenix.org/system/files/usenixsecurity23-wang-dawei.pdf)
+- [DDRace: Finding Concurrency UAF Vulnerabilities in Linux Drivers with Directed Fuzzing, 2023](https://www.usenix.org/system/files/usenixsecurity23-yuan-ming.pdf)
+- [DynSQL: Stateful Fuzzing for Database Management Systems with Complex and Valid SQL Query Generation, 2023](https://www.usenix.org/system/files/usenixsecurity23-jiang-zu-ming.pdf)
+- [Forming Faster Firmware Fuzzers, 2023](https://www.usenix.org/system/files/usenixsecurity23-seidel.pdf)
+- [FuzzJIT: Oracle-Enhanced Fuzzing for JavaScript Engine JIT Compiler, 2023](https://www.usenix.org/system/files/usenixsecurity23-wang-junjie.pdf)
+- [Fuzztruction: Using Fault Injection-based Fuzzing to Leverage Implicit Domain Knowledge, 2023](https://www.usenix.org/system/files/usenixsecurity23-bars.pdf)
+- [GLeeFuzz: Fuzzing WebGL Through Error Message Guided Mutation, 2023](https://www.usenix.org/system/files/usenixsecurity23-peng.pdf)
+- [Intender: Fuzzing Intent-Based Networking with Intent-State Transition Guidance, 2023](https://www.usenix.org/system/files/usenixsecurity23-kim-jiwon.pdf)
+- [KextFuzz: Fuzzing macOS Kernel EXTensions on Apple Silicon via Exploiting Mitigations, 2023](https://www.usenix.org/system/files/usenixsecurity23-yin.pdf)
+- [MINER: A Hybrid Data-Driven Approach for REST API Fuzzing, 2023](https://www.usenix.org/system/files/usenixsecurity23-lyu.pdf)
+- [MorFuzz: Fuzzing Processor via Runtime Instruction Morphing enhanced Synchronizable Co-simulation, 2023](https://www.usenix.org/system/files/usenixsecurity23-xu-jinyan.pdf)
+- [MTSan: A Feasible and Practical Memory Sanitizer for Fuzzing COTS Binaries, 2023](https://www.usenix.org/system/files/usenixsecurity23-chen-xingman.pdf)
+- [PolyFuzz: Holistic Greybox Fuzzing of Multi-Language Systems, 2023](https://www.usenix.org/system/files/usenixsecurity23-li-wen.pdf)
+
+</details>
+
 <details><summary>2022 (14 papers)</summary>
 
 - [StateFuzz: System Call-Based State-Aware Linux Driver Fuzzing, 2022](https://www.usenix.org/system/files/sec22-zhao-bodong.pdf)
