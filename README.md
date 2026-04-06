@@ -413,6 +413,22 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 
 ### ACM Conference on Computer and Communications Security (ACM CCS)
 
+<details><summary>2025 (11 papers)</summary>
+
+- [A Qualitative Analysis of Fuzzer Usability and Challenges, 2025](https://dl.acm.org/doi/10.1145/3719027.3765055)
+- [ConTest: Taming the Cyber-physical Input Space in Fuzz Testing with Control Theory, 2025](https://dl.acm.org/doi/10.1145/3719027.3765129)
+- [DiveFuzz: Enhancing CPU Fuzzing via Diverse Instruction Construction, 2025](https://dl.acm.org/doi/10.1145/3719027.3765167)
+- [Error Messages to Fuzzing: Detecting XPS Parsing Vulnerabilities in Windows Printing Components, 2025](https://dl.acm.org/doi/10.1145/3719027.3744807)
+- [Fuzzing Processing Pipelines for Zero-Knowledge Circuits, 2025](https://dl.acm.org/doi/10.1145/3719027.3744791)
+- [Intent-aware Fuzzing for Android Hardened Application, 2025](https://dl.acm.org/doi/10.1145/3719027.3744858)
+- [PromeFuzz: A Knowledge-Driven Approach to Fuzzing Harness Generation with Large Language Models, 2025](https://dl.acm.org/doi/10.1145/3719027.3765222)
+- [Protocol-Aware Firmware Rehosting for Effective Fuzzing of Embedded Network Stacks, 2025](https://dl.acm.org/doi/10.1145/3719027.3765125)
+- [RVISmith: Fuzzing Compilers for RVV Intrinsics, 2025](https://dl.acm.org/doi/10.1145/3719027.3744790)
+- [SyzParam: Incorporating Runtime Parameters into Kernel Driver Fuzzing, 2025](https://dl.acm.org/doi/10.1145/3719027.3744838)
+- [SyzSpec: Specification Generation for Linux Kernel Fuzzing via Under-Constrained Symbolic Execution, 2025](https://dl.acm.org/doi/10.1145/3719027.3744811)
+
+</details>
+
 <details><summary>2024 (19 papers)</summary>
 
 - [Collapse Like A House of Cards: Hacking Building Automation System Through Fuzzing, 2024](https://dl.acm.org/doi/10.1145/3658644.3690216)
