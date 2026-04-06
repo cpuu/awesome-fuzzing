@@ -39,6 +39,12 @@ Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM
 
 
 ### The Network and Distributed System Security Symposium (NDSS)
+- [DeepGo: Predictive Directed Greybox Fuzzing, 2024](https://www.ndss-symposium.org/wp-content/uploads/2024-514-paper.pdf)
+- [Large Language Model guided Protocol Fuzzing, 2024](https://www.ndss-symposium.org/wp-content/uploads/2024-556-paper.pdf)
+- [MOCK: Optimizing Kernel Fuzzing Mutation with Context-aware Dependency, 2024](https://www.ndss-symposium.org/wp-content/uploads/2024-131-paper.pdf)
+- [Predictive Context-sensitive Fuzzing, 2024](https://www.ndss-symposium.org/wp-content/uploads/ndss2024_f113_paper.pdf)
+- [ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing, 2024](https://www.ndss-symposium.org/wp-content/uploads/2024-31-paper.pdf)
+- [ShapFuzz: Efficient Fuzzing via Shapley-Guided Byte Selection, 2024](https://www.ndss-symposium.org/wp-content/uploads/2024-134-paper.pdf)
 - [DARWIN: Survival of the Fittest Fuzzing Mutators, 2023](https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-fuzzing-mutators/)
 - [FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities, 2023](https://www.ndss-symposium.org/wp-content/uploads/2023-290-paper.pdf)
 - [LOKI: State-Aware Fuzzing Framework for the Implementation of Blockchain Consensus Protocols, 2023](https://www.ndss-symposium.org/wp-content/uploads/2023-78-paper.pdf)
