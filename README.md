@@ -45,7 +45,7 @@ Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM
 - [Predictive Context-sensitive Fuzzing, 2024](https://www.ndss-symposium.org/wp-content/uploads/ndss2024_f113_paper.pdf)
 - [ReqsMiner: Automated Discovery of CDN Forwarding Request Inconsistencies and DoS Attacks with Grammar-based Fuzzing, 2024](https://www.ndss-symposium.org/wp-content/uploads/2024-31-paper.pdf)
 - [ShapFuzz: Efficient Fuzzing via Shapley-Guided Byte Selection, 2024](https://www.ndss-symposium.org/wp-content/uploads/2024-134-paper.pdf)
-- [DARWIN: Survival of the Fittest Fuzzing Mutators, 2023](https://www.ndss-symposium.org/ndss-paper/darwin-survival-of-the-fittest-fuzzing-mutators/)
+- [DARWIN: Survival of the Fittest Fuzzing Mutators, 2023](https://www.ndss-symposium.org/wp-content/uploads/2023-159-paper.pdf)
 - [FUZZILLI: Fuzzing for JavaScript JIT Compiler Vulnerabilities, 2023](https://www.ndss-symposium.org/wp-content/uploads/2023-290-paper.pdf)
 - [LOKI: State-Aware Fuzzing Framework for the Implementation of Blockchain Consensus Protocols, 2023](https://www.ndss-symposium.org/wp-content/uploads/2023-78-paper.pdf)
 - [No Grammar, No Problem: Towards Fuzzing the Linux Kernel without System-Call Description, 2023](https://www.ndss-symposium.org/wp-content/uploads/2023-688-paper.pdf)
