@@ -145,6 +145,18 @@ Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM
 
 ### IEEE Symposium on Security and Privacy (IEEE S&P)
 
+<details><summary>2025 (7 papers)</summary>
+
+- [CHIMERA: Fuzzing P4 Network Infrastructure for Multi-Plane Bug Detection and Vulnerability Discovery, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600c865/26hiVb0gXUA)
+- [FirmRCA: Towards Post-Fuzzing Analysis on ARM Embedded Firmware with Efficient Event-based Fault Localization, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a002/21B7PVDny6I)
+- [Fuzz-Testing Meets LLM-Based Agents: An Automated and Efficient Framework for Jailbreaking Text-To-Image Generation Models, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a336/26hiTETXKow)
+- [HouseFuzz: Service-Aware Grey-Box Fuzzing for Vulnerability Detection in Linux-Based Firmware, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600d507/26hiVy3bGHm)
+- [Predator: Directed Web Application Fuzzing for Efficient Vulnerability Validation, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a066/21B7Ray6BkA)
+- [RGFuzz: Rule-Guided Fuzzer for WebAssembly Runtimes, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600a003/21B7PWv1JGU)
+- [Stateful Analysis and Fuzzing of Commercial Baseband Firmware, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600b120/26EkFox5zyg)
+
+</details>
+
 <details><summary>2024 (14 papers)</summary>
 
 - [AFGen: Whole-Function Fuzzing for Applications and Libraries, 2024](https://www.computer.org/csdl/proceedings-article/sp/2024/313000a011/1RjE9PjiDss)
