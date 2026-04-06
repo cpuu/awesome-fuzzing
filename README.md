@@ -33,10 +33,9 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 - [Fuzzing with AFL](https://www.youtube.com/watch?v=DFQT1YxvpDo) - NDC Conferences 2018.
 
 ## Papers
-To achieve a well-defined scope, I have chosen to include publications on fuzzing in the last proceedings of 4
-top major security conferences and others from Jan 2008 to Jul 2019.
-It includes (i) Network and Distributed System Security Symposium (NDSS), (ii) IEEE Symposium on
-Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM Conference on Computer and Communications Security (CCS).
+To achieve a well-defined scope, I have chosen to include publications on fuzzing from 4 top major security conferences (2008–2025): (i) Network and Distributed System Security Symposium (NDSS), (ii) IEEE Symposium on Security and Privacy (S&P), (iii) USENIX Security Symposium (USEC), and (iv) ACM Conference on Computer and Communications Security (CCS).
+
+> **Note:** Papers are selected based on whether the title contains the keyword "fuzz." If a paper is related to fuzzing but does not include "fuzz" in its title, it may have been missed. In that case, please open a [Pull Request](https://github.com/cpuu/awesome-fuzzing/pulls) and it will be reviewed for inclusion.
 
 
 ### The Network and Distributed System Security Symposium (NDSS)
