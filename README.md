@@ -16,8 +16,7 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 
 
 ## Books
-- 
-- [Fuzzing Against the Machine: Automate vulnerability research with emulated IoT devices on QEMU](https://a.co/d/0bXISQgZ)
+- [Fuzzing Against the Machine: Automate vulnerability research with emulated IoT devices on QEMU](https://a.co/d/0bXISQgZ) (2023)
 - [Fuzzing-101](https://github.com/antonio-morales/Fuzzing101)
 - [The Fuzzing Book](https://www.fuzzingbook.org/) (2019)
 - [The Art, Science, and Engineering of Fuzzing: A Survey](https://ieeexplore.ieee.org/document/8863940) (2019) - 
