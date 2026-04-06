@@ -413,13 +413,17 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 
 ### ACM Conference on Computer and Communications Security (ACM CCS)
 
-<details><summary>2023 (5 papers)</summary>
+<details><summary>2023 (9 papers)</summary>
 
-- [Fuzz on the Beach: Fuzzing Solana Smart Contracts, 2023](https://arxiv.org/pdf/2309.03006.pdf)
-- [NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic, 2023](https://secsys.fudan.edu.cn/_upload/article/files/56/ed/788960544d56a38258aca7d3c8b5/216e599a-d6f6-4308-aa0b-ef45166a8431.pdf)
-- [Profile-Driven System Optimizations for Accelerated Greybox Fuzzing, 2023](https://users.cs.utah.edu/~snagy/papers/23CCS.pdf)
-- [Hopper: Interpretative Fuzzing for Libraries, 2023](https://arxiv.org/pdf/2309.03496.pdf)
-- [Greybox Fuzzing of Distributed Systems, 2023](https://arxiv.org/pdf/2305.02601.pdf)
+- [DSFuzz: Detecting Deep State Bugs with Dependent State Exploration, 2023](https://dl.acm.org/doi/10.1145/3576915.3616594)
+- [Fuzz on the Beach: Fuzzing Solana Smart Contracts, 2023](https://dl.acm.org/doi/10.1145/3576915.3623178)
+- [Greybox Fuzzing of Distributed Systems, 2023](https://dl.acm.org/doi/10.1145/3576915.3623097)
+- [Hopper: Interpretative Fuzzing for Libraries, 2023](https://dl.acm.org/doi/10.1145/3576915.3616610)
+- [Lifting Network Protocol Implementation to Precise Format Specification with Security Applications, 2023](https://dl.acm.org/doi/10.1145/3576915.3616614)
+- [NestFuzz: Enhancing Fuzzing with Comprehensive Understanding of Input Processing Logic, 2023](https://dl.acm.org/doi/10.1145/3576915.3623103)
+- [Profile-guided System Optimizations for Accelerated Greybox Fuzzing, 2023](https://dl.acm.org/doi/10.1145/3576915.3616636)
+- [PyRTFuzz: Detecting Bugs in Python Runtimes via Two-Level Collaborative Fuzzing, 2023](https://dl.acm.org/doi/10.1145/3576915.3623166)
+- [SyzDirect: Directed Greybox Fuzzing for Linux Kernel, 2023](https://dl.acm.org/doi/10.1145/3576915.3623146)
 
 </details>
 
