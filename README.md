@@ -582,7 +582,7 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 
 
 ## Tools
-Information about the various open source tools you can use to leverage fuzz testing. The items in this section have been organized and classified based on the standards set by the https://fuzzing-survey.org/ website. Although there are currently more than 35 categories, we have selected the most relevant ones to provide efficient information. Additionally, items that are outdated and deprecated have been excluded, and only those that are currently usable are listed.
+A curated collection of open-source fuzzing tools, organized by target category based on the taxonomy from [fuzzing-survey.org](https://fuzzing-survey.org/). Tools are selected based on a combination of factors including GitHub popularity, recency, availability of official repositories from original authors, and whether the project is actively maintained.
 ### File
 - [AFL++](https://github.com/AFLplusplus/AFLplusplus) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 - [Angora](https://github.com/AngoraFuzzer/Angora) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
