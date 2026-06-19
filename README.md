@@ -599,6 +599,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 - [syzkaller](https://github.com/google/syzkaller) (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows. 
 - [Trinity](https://github.com/kernelslacker/trinity) (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 ### Network
+- [OpenMailRelayFuzzer](https://github.com/tg12/OpenMailRelayFuzzer) - A fuzzer for discovering open SMTP mail relays by probing mail servers.
 ### API
 - [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) - A coverage-guided REST API fuzzer developed on top of LibAFL.
 - [IvySyn](https://gitlab.com/brown-ssl/ivysyn) - A fully-automated framework for discovering memory error vulnerabilities in Deep Learning (DL) frameworks.
