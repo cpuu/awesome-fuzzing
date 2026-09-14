@@ -637,6 +637,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 - [InsTrim](https://github.com/csienslab/instrim) (2018) - A lightweight instrumentation approach for AFL that uses control-flow analysis to reduce the number of instrumented basic blocks while preserving execution path distinguishability.
 - [QSYM](https://github.com/sslab-gatech/qsym) (2018) - A concolic execution engine designed for hybrid fuzzing that works with AFL to generate inputs for new execution paths.
 - [AFLGo](https://github.com/aflgo/aflgo) (2017) - An AFL-based directed greybox fuzzer that generates inputs to reach specified target locations in a program.
+- [VUzzer](https://github.com/vusec/vuzzer64) (2017) - An application-aware binary fuzzer that uses static analysis and dynamic taint analysis to guide input mutations, with a 64-bit implementation.
 - [AFLFast](https://github.com/mboehme/aflfast) (2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.
 - [Driller](https://github.com/shellphish/driller) (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
 - [AFL](https://lcamtuf.coredump.cx/afl/) (2014) - A coverage-guided fuzzer that uses instrumentation and genetic mutations to discover bugs. Its GitHub repository is archived; AFL++ is recommended for new projects.
