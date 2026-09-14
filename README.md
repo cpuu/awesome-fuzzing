@@ -631,7 +631,13 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 A curated collection of open-source fuzzing tools, organized by target category based on the taxonomy from [fuzzing-survey.org](https://fuzzing-survey.org/). Tools are selected based on a combination of factors including GitHub popularity, recency, availability of official repositories from original authors, and whether the project is actively maintained.
 ### File
 - [AFL++](https://github.com/AFLplusplus/AFLplusplus) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
-- [Angora](https://github.com/AngoraFuzzer/Angora) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
+- [MOpt-AFL](https://github.com/puppet-meteor/MOpt-AFL) (2019) - An AFL-based fuzzer that uses particle swarm optimization to adapt mutation operator selection probabilities for more effective fuzzing.
+- [Angora](https://github.com/AngoraFuzzer/Angora) (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
+- [InsTrim](https://github.com/csienslab/instrim) (2018) - A lightweight instrumentation approach for AFL that uses control-flow analysis to reduce the number of instrumented basic blocks while preserving execution path distinguishability.
+- [AFLFast](https://github.com/mboehme/aflfast) (2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.
+- [Driller](https://github.com/shellphish/driller) (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
+- [AFL](https://lcamtuf.coredump.cx/afl/) (2014) - A coverage-guided fuzzer that uses instrumentation and genetic mutations to discover bugs. Its [GitHub repository](https://github.com/google/AFL) is archived; [AFL++](https://github.com/AFLplusplus/AFLplusplus) is recommended for new projects.
+- [Valgrind](https://valgrind.org) (2000) - A dynamic analysis framework with tools for detecting memory management and threading errors and profiling program execution.
 ### Kernel
 - [Moneta](https://github.com/yonsei-sslab/moneta) (2025) - A GPU driver fuzzer that recalls execution states captured on real hardware for ex-vivo fuzzing.
 - [SyzSpec](https://github.com/seclab-ucr/SyzSpec) (2025) - A specification generator for Linux kernel fuzzing that uses under-constrained symbolic execution to infer syscall interfaces.
