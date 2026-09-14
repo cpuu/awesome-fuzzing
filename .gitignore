@@ -1,10 +1,21 @@
-# oh-my-claudecode
+# Local agent state
 .omc/
+.claude/settings.local.json
 
-# Node
+# Dependencies and package-manager caches
 node_modules/
+.pnpm-store/
+.npm/
+
+# Local logs
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor temporary files
+*.swp
+*.swo
+*~
 
 # OS
 .DS_Store
 Thumbs.db
-.claude/settings.local.json

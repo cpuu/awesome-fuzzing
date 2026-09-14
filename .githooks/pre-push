@@ -1,0 +1,23 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+head=$(git rev-parse HEAD)
+has_update=false
+while read -r local_ref local_oid remote_ref remote_oid; do
+  case "$local_oid" in
+    0000000000000000000000000000000000000000) continue ;;
+  esac
+  if [ "$local_oid" != "$head" ]; then
+    echo 'Push only the checked-out HEAD; check out and validate other refs separately.' >&2
+    exit 1
+  fi
+  has_update=true
+done
+if [ "$has_update" = false ]; then
+  exit 0
+fi
+if ! git diff HEAD --quiet; then
+  echo 'Commit or stash tracked changes before validating HEAD for push.' >&2
+  exit 1
+fi
+pnpm lint

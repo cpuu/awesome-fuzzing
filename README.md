@@ -13,7 +13,6 @@ Your favorite tool or your own paper is not listed? Fork and create a Pull Reque
 - [Talks](#talks)
 - [Papers](#papers)
 - [Tools](#tools)
-- [Contribute](#contribute)
 
 
 ## Books
@@ -599,7 +598,6 @@ A curated collection of open-source fuzzing tools, organized by target category 
 - [kAFL](https://github.com/rub-syssec/kafl) (2017) - A hardware-assisted x86-64 VM kernel fuzzing framework with performant VM reloads for finding OS kernel vulnerabilities.
 - [syzkaller](https://github.com/google/syzkaller) (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows. 
 - [Trinity](https://github.com/kernelslacker/trinity) (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
-### Network
 ### API
 - [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) - A coverage-guided REST API fuzzer developed on top of LibAFL.
 - [IvySyn](https://gitlab.com/brown-ssl/ivysyn) - A fully-automated framework for discovering memory error vulnerabilities in Deep Learning (DL) frameworks.
@@ -608,21 +606,15 @@ A curated collection of open-source fuzzing tools, organized by target category 
 - [GraphFuzz](https://github.com/ForAllSecure/GraphFuzz) - An experimental framework for building structure-aware, library API fuzzers.
 - [Minerva](https://github.com/ChijinZ/Minerva) - A browser fuzzer augmented by API mod-ref relations, aiming to synthesize highly-relevant browser API invocations in each test case.
 - [FANS](https://github.com/iromise/fans) - A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
-### JavaScript
-### Firmware
-### Hypervisor
 ### CPU
 - [DifuzzRTL](https://github.com/compsec-snu/difuzz-rtl) - A differential fuzz testing approach for CPU verification.
 - [MorFuzz](https://github.com/sycuricon/MorFuzz) - A generic RISC-V processor fuzzing framework that can efficiently detect software triggerable functional bugs.
 - [SpecFuzz](https://github.com/tudinfse/SpecFuzz) - A tool to enable fuzzing for Spectre vulnerabilities.
 - [Transynther](https://github.com/vernamlab/Medusa) - Automatically generates and tests building blocks for Meltdown attacks with various faults and microcode assists.
-### Lib
 ### Web
 - [TEFuzz](https://github.com/seclab-fudan/TEFuzz/) - A tailored fuzzing-based framework to facilitate the detection and exploitation of template escape bugs.
 - [Witcher](https://github.com/sefcom/Witcher) - A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.
 - [CorbFuzz](https://github.com/shouc/corbfuzz) - A state-aware fuzzer for generating as many responses from a web application as possible without need of setting up a database.
-### DOM
-### Argument
 ### Blockchain
 - [Fluffy](https://github.com/snuspl/fluffy) - A multi-transaction differential fuzzer for finding consensus bugs in Ethereum.
 - [LOKI](https://github.com/ConsensusFuzz/LOKI) - A Blockchain consensus protocol fuzzing framework that detects consensus memory related and logic bugs.
@@ -630,8 +622,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 - [Squirrel](https://github.com/s3team/Squirrel) - A fuzzer for database management systems (DBMSs).
 
 
-## Contribute
+## Contributing
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
-
 

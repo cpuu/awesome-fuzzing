@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+cd "$(git rev-parse --show-toplevel)"
+if ! git diff --quiet; then
+  echo 'Stage or stash unstaged tracked changes so lint checks the commit content.' >&2
+  exit 1
+fi
+git diff --cached --check
+pnpm lint

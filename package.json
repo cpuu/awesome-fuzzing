@@ -1,0 +1,16 @@
+{
+  "name": "awesome-fuzzing",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "lint": "awesome-lint README.md",
+    "test": "node --test scripts/test-hooks.mjs",
+    "hooks:install": "sh scripts/install-hooks.sh"
+  },
+  "devDependencies": {
+    "awesome-lint": "2.3.0"
+  }
+}
