@@ -635,6 +635,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 - [REDQUEEN](https://github.com/RUB-SysSec/redqueen) (2019) - A binary fuzzer that uses input-to-state correspondence to overcome magic bytes and checksums without symbolic execution.
 - [Angora](https://github.com/AngoraFuzzer/Angora) (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 - [InsTrim](https://github.com/csienslab/instrim) (2018) - A lightweight instrumentation approach for AFL that uses control-flow analysis to reduce the number of instrumented basic blocks while preserving execution path distinguishability.
+- [QSYM](https://github.com/sslab-gatech/qsym) (2018) - A concolic execution engine designed for hybrid fuzzing that works with AFL to generate inputs for new execution paths.
 - [AFLFast](https://github.com/mboehme/aflfast) (2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.
 - [Driller](https://github.com/shellphish/driller) (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
 - [AFL](https://lcamtuf.coredump.cx/afl/) (2014) - A coverage-guided fuzzer that uses instrumentation and genetic mutations to discover bugs. Its [GitHub repository](https://github.com/google/AFL) is archived; [AFL++](https://github.com/AFLplusplus/AFLplusplus) is recommended for new projects.
