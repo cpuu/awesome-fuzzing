@@ -632,6 +632,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 ### File
 - [AFL++](https://github.com/AFLplusplus/AFLplusplus) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 - [MOpt-AFL](https://github.com/puppet-meteor/MOpt-AFL) (2019) - An AFL-based fuzzer that uses particle swarm optimization to adapt mutation operator selection probabilities for more effective fuzzing.
+- [REDQUEEN](https://github.com/RUB-SysSec/redqueen) (2019) - A binary fuzzer that uses input-to-state correspondence to overcome magic bytes and checksums without symbolic execution.
 - [Angora](https://github.com/AngoraFuzzer/Angora) (2018) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 - [InsTrim](https://github.com/csienslab/instrim) (2018) - A lightweight instrumentation approach for AFL that uses control-flow analysis to reduce the number of instrumented basic blocks while preserving execution path distinguishability.
 - [AFLFast](https://github.com/mboehme/aflfast) (2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.
