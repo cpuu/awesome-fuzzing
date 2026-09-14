@@ -633,9 +633,25 @@ A curated collection of open-source fuzzing tools, organized by target category 
 - [AFL++](https://github.com/AFLplusplus/AFLplusplus) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
 - [Angora](https://github.com/AngoraFuzzer/Angora) - A mutation-based coverage guided fuzzer that increases branch coverage by solving path constraints without symbolic execution.
 ### Kernel
+- [Moneta](https://github.com/yonsei-sslab/moneta) (2025) - A GPU driver fuzzer that recalls execution states captured on real hardware for ex-vivo fuzzing.
+- [SyzSpec](https://github.com/seclab-ucr/SyzSpec) (2025) - A specification generator for Linux kernel fuzzing that uses under-constrained symbolic execution to infer syscall interfaces.
+- [CountDown](https://github.com/psu-security-universe/countdown) (2024) - A kernel fuzzer that uses shared reference counts to guide syscall sequences toward use-after-free bugs.
+- [MOCK](https://github.com/m0ck1ng/mock) (2024) - A Linux kernel fuzzer that learns contextual dependencies between syscalls to generate context-aware test cases.
+- [SyzTrust](https://github.com/SyzTrust/syztrust) (2024) - An on-device fuzzer for IoT trusted operating systems that uses state and branch coverage to guide input generation.
+- [VirtFuzz](https://github.com/seemoo-lab/VirtFuzz) (2024) - A LibAFL-based Linux kernel fuzzer that injects inputs through VirtIO devices to test wireless stacks.
 - [ACTOR](https://github.com/ucsb-seclab/actor) (2023) - An action-guided kernel fuzzing framework that generates inputs leveraging triggered actions and their temporal relationships.
+- [FuzzNG](https://github.com/BUseclab/FuzzNG) (2023) - A Linux kernel syscall fuzzer designed to minimize reliance on manually written system call descriptions.
+- [KextFuzz](https://github.com/vul337/KextFuzz) (2023) - A fuzzing prototype for macOS kernel extensions on Apple Silicon that instruments extensions and patches entitlement checks.
+- [SegFuzz](https://github.com/casys-kaist/segfuzz) (2023) - A kernel concurrency fuzzer that uses interleaving segment coverage and mutation-based thread scheduling to discover bugs.
+- [SyzDirect](https://github.com/seclab-fudan/SyzDirect) (2023) - A directed greybox fuzzer for reaching target locations in the Linux kernel.
+- [DR.FUZZ](https://github.com/secsysresearch/DRFuzz) (2022) - A semantic-informed driver fuzzer that tests Linux device drivers without their hardware devices or device emulators.
+- [Drifuzz](https://github.com/messlabnyu/DrifuzzProject) (2022) - A hardware-free device driver fuzzer that combines concolic execution with high-quality initial seed generation.
+- [FuzzUSB](https://github.com/purseclab/fuzzusb) (2022) - A hybrid stateful fuzzing framework for USB gadget stacks in the Linux kernel.
+- [StateFuzz](https://github.com/vul337/StateFuzz) (2022) - A Linux driver fuzzer that identifies state variables through static analysis and uses their values as fuzzing feedback.
 - [NTFuzz](https://github.com/SoftSec-KAIST/NTFuzz) (2021) - A type-aware Windows kernel fuzzer that statically analyzes system binaries to infer system call types for more effective fuzzing.
+- [SyzGen](https://github.com/seclab-ucr/SyzGen_setup) (2021) - A syscall specification generator that analyzes closed-source macOS drivers to enable interface-aware fuzzing.
 - [KRACE](https://github.com/sslab-gatech/krace) (2020) - A coverage-guided fuzzing framework that detects data races in kernel file systems by exploring concurrency through multi-threaded syscall sequences.
+- [PeriScope](https://github.com/securesystemslab/periscope) (2019) - A probing and fuzzing framework that tests device drivers at the hardware-OS boundary through MMIO and DMA inputs.
 - [Razzer](https://github.com/compsec-snu/razzer) (2019) - A kernel fuzzer that uses static analysis and two-phase fuzzing to detect race conditions and concurrency bugs in Linux kernels.
 - [Hydra](https://github.com/sslab-gatech/hydra) (2019) - A fuzzing framework for automatically discovering semantic bugs in file systems using input mutators, feedback engines, and customizable checkers.
 - [Janus](https://github.com/sslab-gatech/janus) (2019) - A file system fuzzer that finds memory corruptions in Linux kernel file systems by mutating both filesystem images and syscall sequences simultaneously.

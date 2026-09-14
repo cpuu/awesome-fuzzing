@@ -7,6 +7,9 @@
 # Local maintenance documentation
 /docs/
 
+# Local research dataset
+/fuzzers260724.json
+
 # Dependencies and package-manager caches
 node_modules/
 .venv/
