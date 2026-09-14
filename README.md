@@ -674,8 +674,13 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 - [syzkaller](https://github.com/google/syzkaller) (2015) - An unsupervised coverage-guided kernel fuzzer supporting FreeBSD, Fuchsia, gVisor, Linux, NetBSD, OpenBSD, and Windows. 
 - [Trinity](https://github.com/kernelslacker/trinity) (2012) - A Linux system call fuzzer that generates semi-intelligent random arguments to syscalls, including valid file descriptors, flags, and range-biased values.
 ### Libraries & APIs
+- [Hopper](https://github.com/FuzzAnything/Hopper) (2023) - A library fuzzer that interprets generated API calls and learns argument constraints without requiring manually written fuzz drivers.
 - [IvySyn](https://gitlab.com/brown-ssl/ivysyn) - A fully-automated framework for discovering memory error vulnerabilities in Deep Learning (DL) frameworks.
 - [GraphFuzz](https://github.com/ForAllSecure/GraphFuzz) - An experimental framework for building structure-aware, library API fuzzers.
+### Network & Protocols
+- [ChatAFL](https://github.com/ChatAFLndss/ChatAFL) (2024) - An AFLNet-based protocol fuzzer that uses LLMs to infer message grammars, enrich seeds, and generate messages that explore new protocol states.
+- [ResolverFuzz](https://github.com/ResolverFuzz/ResolverFuzz) (2024) - A DNS fuzzer that combines query-response generation with differential analysis to detect non-crash vulnerabilities in resolvers.
+- [SGFuzz](https://github.com/bajinsheng/SGFuzz) (2022) - A libFuzzer-based fuzzer that adds state-transition feedback to explore stateful software, including network protocol implementations.
 ### Web Applications & APIs
 - [WuppieFuzz](https://github.com/TNO-S3/WuppieFuzz) - A coverage-guided REST API fuzzer developed on top of LibAFL.
 - [MINER](https://github.com/puppet-meteor/MINER) - A REST API fuzzer that utilizes three data-driven designs working together to guide sequence generation, improve request generation quality, and capture unique errors caused by incorrect parameter usage.
@@ -683,18 +688,37 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 - [TEFuzz](https://github.com/seclab-fudan/TEFuzz/) - A tailored fuzzing-based framework to facilitate the detection and exploitation of template escape bugs.
 - [Witcher](https://github.com/sefcom/Witcher) - A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.
 ### Browsers
+- [FuzzOrigin](https://github.com/compsec-snu/fuzzorigin) (2022) - A browser fuzzer that tests origin handling to discover universal cross-site scripting vulnerabilities.
 - [CorbFuzz](https://github.com/shouc/corbfuzz) (2021) - A browser security policy testing framework that synthesizes web application responses to test cross-origin response blocking implementations.
+- [FreeDom](https://github.com/sslab-gatech/freedom) (2020) - A DOM fuzzer that generates HTML documents and DOM interactions to discover browser vulnerabilities.
+### Compilers & Language Runtimes
+- [RGFuzz](https://github.com/kaist-hacking/RGFuzz) (2025) - A WebAssembly runtime fuzzer that uses compiler rules to guide test generation and compares execution results across runtimes and architectures.
+- [FuzzJIT](https://github.com/SpaceNaN/fuzzjit) (2023) - A Fuzzilli-based JavaScript engine fuzzer that uses an oracle to detect incorrect behavior introduced by JIT compilation.
+- [CodeAlchemist](https://github.com/SoftSec-KAIST/CodeAlchemist) (2019) - A JavaScript engine fuzzer that assembles code fragments while respecting semantic constraints to generate valid test programs.
+### Firmware & Embedded Systems
+- [Hoedur](https://github.com/fuzzware-fuzzer/hoedur) (2023) - An embedded firmware fuzzer that uses multiple input streams to represent interactions with different hardware interfaces.
+- [Fuzzware](https://github.com/fuzzware-fuzzer/fuzzware) (2022) - A firmware fuzzer that models memory-mapped I/O accesses to test microcontroller firmware without full peripheral emulation.
+- [FIRM-AFL](https://github.com/zyw-200/FirmAFL) (2019) - An IoT firmware fuzzer that combines user-mode and system-mode emulation to improve fuzzing throughput for POSIX-compatible firmware.
+### Hypervisors & Virtual Devices
+- [HyperPill](https://github.com/HexHive/HyperPill) (2024) - A hypervisor fuzzer that uses the hardware virtualization interface to exercise hypervisor behavior without hypervisor-specific input grammars.
+- [ViDeZZo](https://github.com/HexHive/ViDeZZo) (2023) - A virtual device fuzzing framework that models dependencies within and between messages to test devices in QEMU and VirtualBox.
+- [V-SHUTTLE](https://github.com/hustdebug/v-shuttle) (2021) - An AFL-based fuzzer for virtual devices in hosted hypervisors, with semantics-aware input generation.
 ### Hardware & Microarchitecture
 - [DifuzzRTL](https://github.com/compsec-snu/difuzz-rtl) - A differential fuzz testing approach for CPU verification.
 - [MorFuzz](https://github.com/sycuricon/MorFuzz) - A generic RISC-V processor fuzzing framework that can efficiently detect software triggerable functional bugs.
 - [SpecFuzz](https://github.com/tudinfse/SpecFuzz) - A tool that exposes speculative execution paths through software instrumentation so fuzzers can detect Spectre-type vulnerabilities in programs.
 - [Transynther](https://github.com/vernamlab/Medusa) - Automatically generates and tests building blocks for Meltdown attacks with various faults and microcode assists.
 ### Android & Mobile Systems
+- [AHA-Fuzz](https://github.com/S2-Lab/AHA-fuzz) (2025) - An intent-aware greybox fuzzer that uses eBPF-based analysis to test hardened Android applications.
+- [MALintent](https://github.com/sslab-gatech/MALintent) (2025) - A coverage-guided Android fuzzer that generates and mutates intents to test application intent receivers.
 - [FANS](https://github.com/iromise/fans) - A fuzzing tool for Android native system services with four components: interface collector, interface model extractor, dependency inferer, and fuzzer engine.
 ### Blockchain & Smart Contracts
 - [Fluffy](https://github.com/snuspl/fluffy) - A multi-transaction differential fuzzer for finding consensus bugs in Ethereum.
 - [LOKI](https://github.com/ConsensusFuzz/LOKI) - A Blockchain consensus protocol fuzzing framework that detects consensus memory related and logic bugs.
+- [ILF](https://github.com/eth-sri/ilf) (2019) - An Ethereum smart contract fuzzer that learns a transaction-generation policy from symbolic execution through imitation learning.
 ### DBMS
+- [BuzzBee](https://github.com/OMH4ck/BuzzBee) (2024) - A DBMS fuzzer that uses semantic abstraction, context-sensitive constraints, and dependency-guided mutations to generate database queries.
+- [SQLRight](https://github.com/PSU-Security-Universe/sqlright) (2022) - A DBMS fuzzer that combines coverage feedback, validity-oriented query mutations, and result-checking oracles to detect logical bugs.
 - [Squirrel](https://github.com/s3team/Squirrel) - A fuzzer for database management systems (DBMSs).
 
 
