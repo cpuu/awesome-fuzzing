@@ -161,6 +161,25 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 
 ### IEEE Symposium on Security and Privacy (IEEE S&P)
 
+<details><summary>2026 (14 papers)</summary>
+
+- [Batch Me If You Can: Coverage-guided RPKI Fuzzing at Scale, 2026](https://doi.org/10.1109/sp63933.2026.00188)
+- [Camveil: Unveiling Security Camera Vulnerabilities through Multi-Protocol Coordinated Fuzzing, 2026](https://doi.org/10.1109/sp63933.2026.00002)
+- [deepSURF: Detecting Memory Safety Vulnerabilities in Rust Through Fuzzing LLM-Augmented Harnesses, 2026](https://doi.org/10.1109/sp63933.2026.00060)
+- [Fizzle: A Framework for Deterministic and Reproducible Network Fuzzing, 2026](https://doi.org/10.1109/sp63933.2026.00091)
+- [Fuzzing the Physical Space: Physics-Aware Testing of Black-Box Industrial Control Systems, 2026](https://doi.org/10.1109/sp63933.2026.00178)
+- [Jazzer: Coverage-Guided Fuzzing for Semantic Vulnerabilities in the Java Ecosystem, 2026](https://doi.org/10.1109/sp63933.2026.00134)
+- [PILOT: Command-line Interface Fuzzing via Path-Guided, Iterative Large Language Model Prompting, 2026](https://doi.org/10.1109/sp63933.2026.00211)
+- [SmuFuzz: Enable Deep System Management Mode Fuzzing in Fully Featured UEFI Runtime Environment, 2026](https://doi.org/10.1109/sp63933.2026.00011)
+- [Specializing Language Models for Textual Fuzzing via Reinforcement Learning, 2026](https://doi.org/10.1109/sp63933.2026.00184)
+- [StepStone: LLM-Based GPU Kernel Driver Fuzzing via User-Space Libraries, 2026](https://doi.org/10.1109/sp63933.2026.00124)
+- [Stop Starving or Stuffing Me: Boosting Firmware Fuzzing Efficiency with On-demand Input Delivery, 2026](https://doi.org/10.1109/sp63933.2026.00155)
+- [TrigFuzz: Triggering Conditions Guided Directed Fuzzing, 2026](https://doi.org/10.1109/sp63933.2026.00156)
+- [Web Application Vulnerability Repair via Context-Aware Fault Localization and Directed Differential Fuzzing, 2026](https://doi.org/10.1109/sp63933.2026.00237)
+- [zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits, 2026](https://doi.org/10.1109/sp63933.2026.00049)
+
+</details>
+
 <details><summary>2025 (7 papers)</summary>
 
 - [CHIMERA: Fuzzing P4 Network Infrastructure for Multi-Plane Bug Detection and Vulnerability Discovery, 2025](https://www.computer.org/csdl/proceedings-article/sp/2025/223600c865/26hiVb0gXUA)
