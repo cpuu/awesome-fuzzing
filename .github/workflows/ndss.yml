@@ -31,12 +31,12 @@ jobs:
         with:
           ref: ${{ github.event.repository.default_branch }}
           fetch-depth: 0
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - uses: pnpm/action-setup@v5
+      - uses: actions/setup-node@v6
         with:
           node-version-file: .nvmrc
           cache: pnpm
-      - uses: astral-sh/setup-uv@v6
+      - uses: astral-sh/setup-uv@v7
         with:
           python-version: '3.12'
           enable-cache: false
@@ -68,14 +68,14 @@ jobs:
       - name: Show collection report
         run: cat "$RUNNER_TEMP/ndss/pr-body.md" >> "$GITHUB_STEP_SUMMARY"
       - name: Save preview and source report
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ndss-preview
           path: ${{ runner.temp }}/ndss/
       - name: Create review PR
         if: inputs.create_pr
         id: pr
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: ndss
           base: ${{ github.event.repository.default_branch }}
