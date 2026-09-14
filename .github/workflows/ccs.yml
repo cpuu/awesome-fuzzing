@@ -1,0 +1,97 @@
+name: Propose ACM CCS Papers
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: ACM CCS year
+        required: true
+        default: '2026'
+        type: string
+      create_pr:
+        description: Create or update the ccs review PR (otherwise preview only)
+        default: false
+        type: boolean
+
+concurrency:
+  group: ccs-paper-proposal
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - uses: astral-sh/setup-uv@v7
+        with:
+          python-version: '3.12'
+          enable-cache: false
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: pnpm test
+      - name: Preserve manually maintained ccs branches
+        if: inputs.create_pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE: ${{ github.event.repository.default_branch }}
+        run: |
+          if git show-ref --verify --quiet refs/remotes/origin/ccs; then
+            if git merge-base --is-ancestor origin/ccs "origin/$BASE"; then
+              echo 'Existing ccs branch is fully included in the base; it can be reused.'
+              exit 0
+            fi
+            body=$(gh pr list --head ccs --base "$BASE" --state open --json body --jq '.[0].body // ""')
+            if ! printf '%s' "$body" | grep -q '<!-- awesome-fuzzing-ccs -->'; then
+              echo 'Existing ccs branch is not owned by this workflow. Review/merge it first.' >&2
+              exit 1
+            fi
+            if git log "origin/$BASE..origin/ccs" --format='%ae' | grep -vqx '41898282+github-actions[bot]@users.noreply.github.com'; then
+              echo 'Human commits found on ccs. Review/merge them first.' >&2
+              exit 1
+            fi
+          fi
+      - name: Collect official candidates and verify DOI metadata
+        env:
+          CCS_YEAR: ${{ inputs.year }}
+        run: uv run --no-project --python 3.12 python scripts/ccs.py --year "$CCS_YEAR" --write --output-dir "$RUNNER_TEMP/ccs"
+      - run: pnpm lint
+      - run: git diff --check
+      - name: Show collection report
+        run: cat "$RUNNER_TEMP/ccs/pr-body.md" >> "$GITHUB_STEP_SUMMARY"
+      - name: Save preview and source report
+        uses: actions/upload-artifact@v6
+        with:
+          name: ccs-preview
+          path: ${{ runner.temp }}/ccs/
+      - name: Create review PR
+        if: inputs.create_pr
+        id: pr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: ccs
+          base: ${{ github.event.repository.default_branch }}
+          add-paths: README.md
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          commit-message: Propose ACM CCS ${{ inputs.year }} fuzzing papers
+          title: Add ACM CCS ${{ inputs.year }} fuzzing papers
+          body-path: ${{ runner.temp }}/ccs/pr-body.md
+          draft: true
+      # GITHUB_TOKEN-created PRs do not trigger push/pull_request workflows.
+      - name: Explicitly run the required lint workflow on ccs
+        if: inputs.create_pr && steps.pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run lint.yml --ref ccs
