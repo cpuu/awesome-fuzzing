@@ -638,7 +638,7 @@ A curated collection of open-source fuzzing tools, organized by target category 
 - [QSYM](https://github.com/sslab-gatech/qsym) (2018) - A concolic execution engine designed for hybrid fuzzing that works with AFL to generate inputs for new execution paths.
 - [AFLFast](https://github.com/mboehme/aflfast) (2016) - An AFL-based greybox fuzzer that uses power schedules to focus fuzzing effort on low-frequency execution paths.
 - [Driller](https://github.com/shellphish/driller) (2016) - A hybrid fuzzer that augments AFL with selective symbolic execution using angr to generate inputs for paths that fuzzing cannot reach.
-- [AFL](https://lcamtuf.coredump.cx/afl/) (2014) - A coverage-guided fuzzer that uses instrumentation and genetic mutations to discover bugs. Its [GitHub repository](https://github.com/google/AFL) is archived; [AFL++](https://github.com/AFLplusplus/AFLplusplus) is recommended for new projects.
+- [AFL](https://lcamtuf.coredump.cx/afl/) (2014) - A coverage-guided fuzzer that uses instrumentation and genetic mutations to discover bugs. Its GitHub repository is archived; AFL++ is recommended for new projects.
 - [Valgrind](https://valgrind.org) (2000) - A dynamic analysis framework with tools for detecting memory management and threading errors and profiling program execution.
 ### Kernel
 - [Moneta](https://github.com/yonsei-sslab/moneta) (2025) - A GPU driver fuzzer that recalls execution states captured on real hardware for ex-vivo fuzzing.
