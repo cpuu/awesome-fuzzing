@@ -630,6 +630,7 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 ## Tools
 A curated collection of open-source fuzzing tools, organized by target category based on the taxonomy from [fuzzing-survey.org](https://fuzzing-survey.org/). Tools are selected based on a combination of factors including GitHub popularity, recency, availability of official repositories from original authors, and whether the project is actively maintained.
 ### File
+- [G2FUZZ](https://github.com/G2FUZZ/G2FUZZ) (2025) - An AFL++-based fuzzer that uses LLMs to synthesize and mutate input generators for grammar-aware fuzzing of non-textual formats.
 - [LibAFL](https://github.com/AFLplusplus/LibAFL) (2022) - A Rust framework for building custom fuzzers from reusable components, with support for multiple platforms and scaling across cores and machines.
 - [WINNIE](https://github.com/sslab-gatech/winnie) (2021) - A Windows application fuzzer that combines harness synthesis with fast process cloning to test code beyond graphical interfaces.
 - [AFL++](https://github.com/AFLplusplus/AFLplusplus) (2019) - A superior fork to Google's AFL with more speed, more and better mutations, more and better instrumentation, and custom module support.
