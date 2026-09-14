@@ -295,6 +295,15 @@ To achieve a well-defined scope, I have chosen to include publications on fuzzin
 
 ### USENIX Security
 
+<details><summary>2026 (4 papers)</summary>
+
+- [Bond: Constraint-Directed Fuzzing for Automated Validation of Taint Analysis Results in Linux-based IoT Firmware, 2026](https://www.usenix.org/system/files/usenixsecurity26-peng-jiaqian.pdf)
+- [CombiSan: Unifying Software Sanitizers for Comprehensive Fuzzing, 2026](https://www.usenix.org/system/files/usenixsecurity26-marini.pdf)
+- [FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers, 2026](https://www.usenix.org/system/files/usenixsecurity26-duong.pdf)
+- [PANGOLIN: Fuzzing Multilingual IoT Firmware with LLM-Driven Code Analysis, 2026](https://www.usenix.org/system/files/usenixsecurity26-jia-zhipeng.pdf)
+
+</details>
+
 <details><summary>2025 (15 papers)</summary>
 
 - [AidFuzzer: Adaptive Interrupt-Driven Firmware Fuzzing via Run-Time State Recognition, 2025](https://www.usenix.org/system/files/usenixsecurity25-wang-jianqiang.pdf)
