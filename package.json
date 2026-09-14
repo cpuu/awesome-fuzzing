@@ -7,7 +7,7 @@
   },
   "scripts": {
     "lint": "awesome-lint README.md",
-    "test": "node --test scripts/test-hooks.mjs",
+    "test": "node --test scripts/test-hooks.mjs && uv run --no-project --python 3.12 python -m unittest discover -s scripts -p 'test_*.py'",
     "hooks:install": "sh scripts/install-hooks.sh"
   },
   "devDependencies": {

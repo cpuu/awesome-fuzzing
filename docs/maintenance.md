@@ -2,7 +2,7 @@
 
 ## Setup
 
-Install Node.js 24 (see `.nvmrc`) and pnpm 11.19.0, then run:
+Install Node.js 24 (see `.nvmrc`), pnpm 11.19.0, and uv, then run:
 
 ```sh
 pnpm install --frozen-lockfile --ignore-scripts
@@ -74,5 +74,5 @@ Remaining manual checks and decisions:
 
 The linter checks Markdown and selected Awesome conventions, not every editorial
 requirement, paper count, scientific claim, or live link. Human review remains
-necessary. See [AGENTS.md](../AGENTS.md) for the repository's first management rule
-and its upstream sources.
+necessary. See the [contribution guidelines](../contributing.md) for the review
+rules and upstream sources. Local agent instructions are not tracked in Git.

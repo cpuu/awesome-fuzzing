@@ -1,0 +1,93 @@
+name: Propose NDSS Papers
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: NDSS year
+        required: true
+        default: '2026'
+        type: string
+      create_pr:
+        description: Create or update the ndss review PR (otherwise preview only)
+        default: false
+        type: boolean
+
+concurrency:
+  group: ndss-paper-proposal
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+          enable-cache: false
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: pnpm test
+      - name: Preserve manually maintained ndss branches
+        if: inputs.create_pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE: ${{ github.event.repository.default_branch }}
+        run: |
+          if git show-ref --verify --quiet refs/remotes/origin/ndss; then
+            body=$(gh pr list --head ndss --base "$BASE" --state open --json body --jq '.[0].body // ""')
+            if ! printf '%s' "$body" | grep -q '<!-- awesome-fuzzing-ndss -->'; then
+              echo 'Existing ndss branch is not owned by this workflow. Review/merge it first.' >&2
+              exit 1
+            fi
+            if git log "origin/$BASE..origin/ndss" --format='%ae' | grep -vqx '41898282+github-actions[bot]@users.noreply.github.com'; then
+              echo 'Human commits found on ndss. Review/merge them first.' >&2
+              exit 1
+            fi
+          fi
+      - name: Collect official candidates and propose README
+        env:
+          NDSS_YEAR: ${{ inputs.year }}
+        run: uv run --no-project --python 3.12 python scripts/ndss.py --year "$NDSS_YEAR" --write --output-dir "$RUNNER_TEMP/ndss"
+      - run: pnpm lint
+      - run: git diff --check
+      - name: Show collection report
+        run: cat "$RUNNER_TEMP/ndss/pr-body.md" >> "$GITHUB_STEP_SUMMARY"
+      - name: Save preview and source report
+        uses: actions/upload-artifact@v4
+        with:
+          name: ndss-preview
+          path: ${{ runner.temp }}/ndss/
+      - name: Create review PR
+        if: inputs.create_pr
+        id: pr
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: ndss
+          base: ${{ github.event.repository.default_branch }}
+          add-paths: README.md
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          commit-message: Propose NDSS ${{ inputs.year }} fuzzing papers
+          title: Add NDSS ${{ inputs.year }} fuzzing papers
+          body-path: ${{ runner.temp }}/ndss/pr-body.md
+          draft: true
+      # GITHUB_TOKEN-created PRs do not trigger push/pull_request workflows.
+      - name: Explicitly run the required lint workflow on ndss
+        if: inputs.create_pr && steps.pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run lint.yml --ref ndss

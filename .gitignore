@@ -1,9 +1,14 @@
 # Local agent state
+/AGENTS.md
+/agents.md
 .omc/
 .claude/settings.local.json
 
 # Dependencies and package-manager caches
 node_modules/
+.venv/
+__pycache__/
+*.pyc
 .pnpm-store/
 .npm/
 
