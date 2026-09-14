@@ -4,6 +4,9 @@
 .omc/
 .claude/settings.local.json
 
+# Local maintenance documentation
+/docs/
+
 # Dependencies and package-manager caches
 node_modules/
 .venv/

@@ -37,7 +37,7 @@ pnpm lint
 git diff --check
 ```
 
-Install uv and run `pnpm test` when changing validation hooks or the NDSS collector. All Python execution must use uv. See the [maintenance guide](docs/maintenance.md) for hook behavior and CI setup, and the [NDSS automation guide](docs/ndss-automation.md) for candidate proposals. Passing lint does not replace checking the resource's accuracy, relevance, availability, and maintenance status.
+Install uv and run `pnpm test` when changing validation hooks or the NDSS collector. All Python execution must use uv. Passing lint does not replace checking the resource's accuracy, relevance, availability, and maintenance status.
 
 ## Updating Your Pull Request
 
