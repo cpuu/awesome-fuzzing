@@ -1,0 +1,97 @@
+name: Propose USENIX Papers
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: USENIX year
+        required: true
+        default: '2026'
+        type: string
+      create_pr:
+        description: Create or update the usenix review PR (otherwise preview only)
+        default: false
+        type: boolean
+
+concurrency:
+  group: usenix-paper-proposal
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v5
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - uses: astral-sh/setup-uv@v7
+        with:
+          python-version: '3.12'
+          enable-cache: false
+      - run: pnpm install --frozen-lockfile --ignore-scripts
+      - run: pnpm test
+      - name: Preserve manually maintained usenix branches
+        if: inputs.create_pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE: ${{ github.event.repository.default_branch }}
+        run: |
+          if git show-ref --verify --quiet refs/remotes/origin/usenix; then
+            if git merge-base --is-ancestor origin/usenix "origin/$BASE"; then
+              echo 'Existing usenix branch is fully included in the base; it can be reused.'
+              exit 0
+            fi
+            body=$(gh pr list --head usenix --base "$BASE" --state open --json body --jq '.[0].body // ""')
+            if ! printf '%s' "$body" | grep -q '<!-- awesome-fuzzing-usenix -->'; then
+              echo 'Existing usenix branch is not owned by this workflow. Review/merge it first.' >&2
+              exit 1
+            fi
+            if git log "origin/$BASE..origin/usenix" --format='%ae' | grep -vqx '41898282+github-actions[bot]@users.noreply.github.com'; then
+              echo 'Human commits found on usenix. Review/merge them first.' >&2
+              exit 1
+            fi
+          fi
+      - name: Collect official candidates and propose README
+        env:
+          USENIX_YEAR: ${{ inputs.year }}
+        run: uv run --no-project --python 3.12 python scripts/usenix.py --year "$USENIX_YEAR" --write --output-dir "$RUNNER_TEMP/usenix"
+      - run: pnpm lint
+      - run: git diff --check
+      - name: Show collection report
+        run: cat "$RUNNER_TEMP/usenix/pr-body.md" >> "$GITHUB_STEP_SUMMARY"
+      - name: Save preview and source report
+        uses: actions/upload-artifact@v6
+        with:
+          name: usenix-preview
+          path: ${{ runner.temp }}/usenix/
+      - name: Create review PR
+        if: inputs.create_pr
+        id: pr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: usenix
+          base: ${{ github.event.repository.default_branch }}
+          add-paths: README.md
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          commit-message: Propose USENIX ${{ inputs.year }} fuzzing papers
+          title: Add USENIX ${{ inputs.year }} fuzzing papers
+          body-path: ${{ runner.temp }}/usenix/pr-body.md
+          draft: true
+      # GITHUB_TOKEN-created PRs do not trigger push/pull_request workflows.
+      - name: Explicitly run the required lint workflow on usenix
+        if: inputs.create_pr && steps.pr.outputs.pull-request-number
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run lint.yml --ref usenix
