@@ -20,9 +20,10 @@ requests contents and pull-request write access. Actions write access dispatches
 the existing lint workflow on `ndss`, since the default `GITHUB_TOKEN` does not
 trigger another push/PR workflow. No personal token is required.
 
-An existing `ndss` branch must have an open PR bearing this workflow's marker and
-only bot-authored commits ahead of the default branch. Otherwise the workflow
-stops rather than overwriting manual work. Finish or merge manual work first.
+An existing `ndss` branch can be reused when its tip is already an ancestor of the
+default branch (including an identical tip). Otherwise it must have an open PR
+bearing this workflow's marker and only bot-authored commits ahead of the default
+branch. The workflow stops for unmerged manual work. Finish or merge that work first.
 Re-runs update the same proposal; no-change runs do not create new PRs.
 
 ## Collection Rules

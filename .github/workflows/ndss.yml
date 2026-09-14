@@ -49,6 +49,10 @@ jobs:
           BASE: ${{ github.event.repository.default_branch }}
         run: |
           if git show-ref --verify --quiet refs/remotes/origin/ndss; then
+            if git merge-base --is-ancestor origin/ndss "origin/$BASE"; then
+              echo 'Existing ndss branch is fully included in the base; it can be reused.'
+              exit 0
+            fi
             body=$(gh pr list --head ndss --base "$BASE" --state open --json body --jq '.[0].body // ""')
             if ! printf '%s' "$body" | grep -q '<!-- awesome-fuzzing-ndss -->'; then
               echo 'Existing ndss branch is not owned by this workflow. Review/merge it first.' >&2
