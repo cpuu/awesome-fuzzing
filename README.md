@@ -687,6 +687,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 - [RestTestGen](https://github.com/SeUniVr/RestTestGen) - A robust tool and framework designed for automated black-box testing of RESTful web APIs.
 - [TEFuzz](https://github.com/seclab-fudan/TEFuzz/) - A tailored fuzzing-based framework to facilitate the detection and exploitation of template escape bugs.
 - [Witcher](https://github.com/sefcom/Witcher) - A web application fuzzer that utilizes mutational fuzzing to explore web applications and fault escalation to detect command and SQL injection vulnerabilities.
+- [appfuzz](https://github.com/StephanSchmidt/appfuzz) - A fuzzer for WebAssembly web apps and HTTP handlers that runs them against a simulated backend and detects crashes, injection, n+1 queries and data leaks.
 ### Browsers
 - [FuzzOrigin](https://github.com/compsec-snu/fuzzorigin) (2022) - A browser fuzzer that tests origin handling to discover universal cross-site scripting vulnerabilities.
 - [CorbFuzz](https://github.com/shouc/corbfuzz) (2021) - A browser security policy testing framework that synthesizes web application responses to test cross-origin response blocking implementations.
