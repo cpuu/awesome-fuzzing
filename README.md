@@ -677,6 +677,7 @@ A curated collection of open-source fuzzing tools, grouped by their primary test
 - [Hopper](https://github.com/FuzzAnything/Hopper) (2023) - A library fuzzer that interprets generated API calls and learns argument constraints without requiring manually written fuzz drivers.
 - [IvySyn](https://gitlab.com/brown-ssl/ivysyn) - A fully-automated framework for discovering memory error vulnerabilities in Deep Learning (DL) frameworks.
 - [GraphFuzz](https://github.com/ForAllSecure/GraphFuzz) - An experimental framework for building structure-aware, library API fuzzers.
+- [oxfuzz](https://github.com/HenryCooper86/oxfuzz) (2026) - A desktop, CLI, and REST workbench that uses an LLM to rank C, C++, and Rust fuzz targets and draft harnesses, runs AFL++, honggfuzz, libFuzzer, or syzkaller in a Docker sandbox, and triages crashes with CASR.
 ### Network & Protocols
 - [ChatAFL](https://github.com/ChatAFLndss/ChatAFL) (2024) - An AFLNet-based protocol fuzzer that uses LLMs to infer message grammars, enrich seeds, and generate messages that explore new protocol states.
 - [ResolverFuzz](https://github.com/ResolverFuzz/ResolverFuzz) (2024) - A DNS fuzzer that combines query-response generation with differential analysis to detect non-crash vulnerabilities in resolvers.
